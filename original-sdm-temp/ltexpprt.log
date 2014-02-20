@@ -1,0 +1,467 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.6.23)  24 JAN 2014 11:08
+entering extended mode
+**ltexpprt.tex
+(C:\Users\ankit.CS.005\Desktop\original-sdm-temp\ltexpprt.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
+(C:\Ankit_miktex\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(C:\Ankit_miktex\tex\latex\base\leqno.clo
+File: leqno.clo 1998/08/17 v1.1c Standard LaTeX option (left equation numbers)
+)
+(C:\Ankit_miktex\tex\latex\base\size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\Users\ankit.CS.005\Desktop\original-sdm-temp\ltexpprt.sty
+*** ACM/SIAM LaTeX2E Preprint Series macro package, version 1.0, September 5, 1
+996 ***
+\outerparskip=\skip43
+\c@@theorem=\count87
+\c@@algorithm=\count88
+\c@lemma=\count89
+\c@fact=\count90
+\c@corollary=\count91
+\c@axiom=\count92
+\c@cond=\count93
+\c@property=\count94
+\c@proposition=\count95
+\c@Conjecture=\count96
+\c@Definition=\count97
+\c@Lemma=\count98
+\c@Remark=\count99
+) (C:\Ankit_miktex\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Ankit_miktex\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(C:\Ankit_miktex\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Ankit_miktex\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(C:\Ankit_miktex\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(C:\Ankit_miktex\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(C:\Ankit_miktex\tex\latex\subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(C:\Ankit_miktex\tex\latex\caption\caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+(C:\Ankit_miktex\tex\latex\caption\caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@indent=\dimen108
+\caption@parindent=\dimen109
+\caption@hangindent=\dimen110
+)
+\c@ContinuedFloat=\count101
+)
+\c@KVtest=\count102
+\sf@farskip=\skip44
+\sf@captopadj=\dimen111
+\sf@capskip=\skip45
+\sf@nearskip=\skip46
+\c@subfigure=\count103
+\c@subfigure@save=\count104
+\c@lofdepth=\count105
+\c@subtable=\count106
+\c@subtable@save=\count107
+\c@lotdepth=\count108
+\sf@top=\skip47
+\sf@bottom=\skip48
+)
+(C:\Ankit_miktex\tex\latex\amsfonts\euscript.sty
+Package: euscript 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+)
+(C:\Ankit_miktex\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(C:\Ankit_miktex\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(C:\Ankit_miktex\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen112
+))
+(C:\Ankit_miktex\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen113
+)
+(C:\Ankit_miktex\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count109
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count110
+\leftroot@=\count111
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count112
+\DOTSCASE@=\count113
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen114
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count114
+\c@MaxMatrixCols=\count115
+\dotsspace@=\muskip10
+\c@parentequation=\count116
+\dspbrk@lvl=\count117
+\tag@help=\toks16
+\row@=\count118
+\column@=\count119
+\maxfields@=\count120
+\andhelp@=\toks17
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(C:\Ankit_miktex\tex\latex\algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(C:\Ankit_miktex\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count121
+\float@exts=\toks20
+\float@box=\box28
+\@float@everytoks=\toks21
+\@floatcapt=\box29
+)
+(C:\Ankit_miktex\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks22
+\c@algorithm=\count122
+)
+(C:\Ankit_miktex\tex\latex\algorithms\algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count123
+\c@ALC@line=\count124
+\c@ALC@rem=\count125
+\c@ALC@depth=\count126
+\ALC@tlm=\skip52
+\algorithmicindent=\skip53
+)
+(C:\Ankit_miktex\tex\latex\bbm\bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(C:\Ankit_miktex\tex\latex\tools\tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(C:\Ankit_miktex\tex\latex\tools\array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen121
+\extrarowheight=\dimen122
+\NC@list=\toks23
+\extratabsurround=\skip54
+\backup@length=\skip55
+)
+\TX@col@width=\dimen123
+\TX@old@table=\dimen124
+\TX@old@col=\dimen125
+\TX@target=\dimen126
+\TX@delta=\dimen127
+\TX@cols=\count127
+\TX@ftn=\toks24
+)
+(C:\Users\ankit.CS.005\Desktop\original-sdm-temp\ltexpprt.aux
+
+LaTeX Warning: Label `overflow' multiply defined.
+
+
+LaTeX Warning: Label `alg2' multiply defined.
+
+
+LaTeX Warning: Label `alg2' multiply defined.
+
+
+LaTeX Warning: Label `alg2' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+ (C:\Ankit_miktex\tex\context\base\supp-pdf.tex
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count128
+\scratchdimen=\dimen128
+\scratchbox=\box30
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen129
+\MPnumerator=\count132
+\everyMPtoPDFconversion=\toks26
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 98.
+ (C:\Ankit_miktex\tex\latex\base\omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 98.
+
+Underfull \hbox (badness 1354) in paragraph at lines 98--98
+[][]\OT1/cmr/m/n/8 Dept. of Com-puter Sci-ence, Uni-ver-sity of Min-nesota,
+ []
+
+<hypergraph.JPG, id=1, 322.95656pt x 430.60875pt>
+File: hypergraph.JPG Graphic file (type jpg)
+ <use hypergraph.JPG>
+<bipartite.JPG, id=2, 358.33875pt x 371.13657pt>
+File: bipartite.JPG Graphic file (type jpg)
+ <use bipartite.JPG>
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no   in font cmr10!
+ [1{C:/Users/ankit.CS.005/AppData/Local/MiKTeX/2.8/pdftex/config/pdftex.map}
+
+
+ <C:/Users/ankit.CS.005/Desktop/original-sdm-temp/hypergraph.JPG> <C:/Users/ank
+it.CS.005/Desktop/original-sdm-temp/bipartite.JPG>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 154.
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[]\OT1/cmr/bx/n/10 Hyperedge Pre-dic-tion prob-lems and
+ []
+
+[2] <intuition.JPG, id=22, 692.5875pt x 547.2947pt>
+File: intuition.JPG Graphic file (type jpg)
+ <use intuition.JPG>
+Underfull \hbox (badness 1803) in paragraph at lines 197--198
+[]\OT1/cmr/m/it/10 Independent dyadic in-ter-ac-tions fail to pre-dict
+ []
+
+<time_snap.jpg, id=23, 541.27219pt x 420.82219pt>
+File: time_snap.jpg Graphic file (type jpg)
+ <use time_snap.jpg> [3 <C:/Users/ankit.CS.005/Desktop/original-sdm-temp/intuit
+ion.JPG> <C:/Users/ankit.CS.005/Desktop/original-sdm-temp/time_snap.jpg>]
+LaTeX Font Info:    Try loading font information for U+eus on input line 219.
+
+(C:\Ankit_miktex\tex\latex\amsfonts\ueus.fd
+File: ueus.fd 2009/06/22 v3.00 Euler Script
+)
+Underfull \hbox (badness 2189) in paragraph at lines 221--222
+[]\OT1/cmr/m/n/10 Similar to hy-per-graph we rep-re-sent graph as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+[]\OT1/cmr/bx/n/10 Algorithm 1 \OT1/cmr/m/n/10 PREDICT-COLLAB($\OML/cmm/m/it/10
+ C[]$\OT1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
+[] []$\OT1/cmr/bx/n/10 S[]$ \OT1/cmr/m/n/10 = BUILD-SIMILARITY-MATRIX ($\U/eus/
+m/n/10 Z[]$\OT1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 7851) in paragraph at lines 243--244
+[] []\OT1/cmr/bx/n/10 return   re-turn \OT1/cmr/m/n/10 HYPERGRAPH-PROB-
+ []
+
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 250.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+[] []$\OT1/cmr/bx/n/10 S[]$ \OT1/cmr/m/n/10 = BUILD-SIMILARITY-MATRIX ($\U/eus/
+m/n/10 Z[]$\OT1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 268--268
+[]\OT1/cmr/bx/n/10 Algorithm 2 \OT1/cmr/m/n/10 BUILD-SIMILARITY-MATRIX ($\U/eus
+/m/n/10 Z$\OT1/cmr/m/n/10 ,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+[5] <distribution.pdf, id=41, 433.62pt x 325.215pt>
+File: distribution.pdf Graphic file (type pdf)
+ <use distribution.pdf>
+<tables.pdf, id=42, 730.73pt x 308.15125pt>
+File: tables.pdf Graphic file (type pdf)
+ <use tables.pdf> [6 <C:/Users/ankit.CS.005/Desktop/original-sdm-temp/distribut
+ion.pdf>]
+<fscore_main_100.pdf, id=51, 397.485pt x 289.08pt>
+File: fscore_main_100.pdf Graphic file (type pdf)
+ <use fscore_main_100.pdf>
+<fscore_main_1000.pdf, id=52, 397.485pt x 289.08pt>
+File: fscore_main_1000.pdf Graphic file (type pdf)
+ <use fscore_main_1000.pdf>
+<fscore_100_var_train.pdf, id=53, 397.485pt x 289.08pt>
+File: fscore_100_var_train.pdf Graphic file (type pdf)
+
+<use fscore_100_var_train.pdf>
+<fscore_1000_var_train.pdf, id=54, 397.485pt x 289.08pt>
+File: fscore_1000_var_train.pdf Graphic file (type pdf)
+
+<use fscore_1000_var_train.pdf>
+Underfull \hbox (badness 1776) in paragraph at lines 425--426
+ \OT1/cmr/bx/n/10 5.2 Eval-u-a-tion[] \OT1/cmr/m/n/10 In this sec-tion four ex-
+per-i-ments
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--426
+
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 455--456
+[]\OT1/cmr/m/n/10 This study con-sid-ers col-lab-o-ra-tions of size =
+ []
+
+[7 <C:/Users/ankit.CS.005/Desktop/original-sdm-temp/tables.pdf> <C:/Users/ankit
+.CS.005/Desktop/original-sdm-temp/fscore_main_100.pdf> <C:/Users/ankit.CS.005/D
+esktop/original-sdm-temp/fscore_main_1000.pdf> <C:/Users/ankit.CS.005/Desktop/o
+riginal-sdm-temp/fscore_100_var_train.pdf> <C:/Users/ankit.CS.005/Desktop/origi
+nal-sdm-temp/fscore_1000_var_train.pdf>]
+<fscore_100_var_test.pdf, id=87, 397.485pt x 289.08pt>
+File: fscore_100_var_test.pdf Graphic file (type pdf)
+
+<use fscore_100_var_test.pdf>
+<fscore_1000_var_test.pdf, id=88, 397.485pt x 289.08pt>
+File: fscore_1000_var_test.pdf Graphic file (type pdf)
+
+<use fscore_1000_var_test.pdf>
+<trivial_precision_1000.pdf, id=89, 397.485pt x 289.08pt>
+File: trivial_precision_1000.pdf Graphic file (type pdf)
+
+<use trivial_precision_1000.pdf>
+<trivial_recall_1000.pdf, id=90, 397.485pt x 289.08pt>
+File: trivial_recall_1000.pdf Graphic file (type pdf)
+
+<use trivial_recall_1000.pdf> [8 <C:/Users/ankit.CS.005/Desktop/original-sdm-te
+mp/fscore_100_var_test.pdf> <C:/Users/ankit.CS.005/Desktop/original-sdm-temp/fs
+core_1000_var_test.pdf>]
+
+LaTeX Warning: Citation `ex1' undefined on input line 734.
+
+
+LaTeX Warning: Citation `ex2' undefined on input line 734.
+
+(C:\Users\ankit.CS.005\Desktop\original-sdm-temp\ltexpprt.bbl [9 <C:/Users/anki
+t.CS.005/Desktop/original-sdm-temp/trivial_precision_1000.pdf> <C:/Users/ankit.
+CS.005/Desktop/original-sdm-temp/trivial_recall_1000.pdf>]
+Underfull \hbox (badness 6078) in paragraph at lines 74--76
+\OT1/cmr/m/n/9 plex net-works as hy-per-graphs,'' \OT1/cmr/m/it/9 arXiv preprin
+t
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10
+
+]
+(C:\Users\ankit.CS.005\Desktop\original-sdm-temp\ltexpprt.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3354 strings out of 495285
+ 47534 string characters out of 3181405
+ 119373 words of memory out of 3000000
+ 6508 multiletter control sequences out of 15000+200000
+ 12596 words of font info for 46 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 44i,14n,42p,1623b,786s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Ankit_miktex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Ankit_miktex/f
+onts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Ankit_miktex/fonts/type1/public/ams
+fonts/cm/cmex10.pfb><C:/Ankit_miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+<C:/Ankit_miktex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Ankit_miktex/font
+s/type1/public/amsfonts/cm/cmmi7.pfb><C:/Ankit_miktex/fonts/type1/public/amsfon
+ts/cm/cmmi9.pfb><C:/Ankit_miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/A
+nkit_miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Ankit_miktex/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb><C:/Ankit_miktex/fonts/type1/public/amsfonts/cm/
+cmr8.pfb><C:/Ankit_miktex/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Ankit_mik
+tex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Ankit_miktex/fonts/type1/publ
+ic/amsfonts/cm/cmsy5.pfb><C:/Ankit_miktex/fonts/type1/public/amsfonts/cm/cmsy6.
+pfb><C:/Ankit_miktex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Ankit_miktex/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Ankit_miktex/fonts/type1/public/am
+sfonts/cm/cmsy9.pfb><C:/Ankit_miktex/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+<C:/Ankit_miktex/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Ankit_miktex/font
+s/type1/public/amsfonts/euler/eusm10.pfb>
+Output written on ltexpprt.pdf (10 pages, 679653 bytes).
+PDF statistics:
+ 180 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+

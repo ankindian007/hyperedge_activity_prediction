@@ -1,0 +1,1144 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.12.12)  19 FEB 2014 22:53
+entering extended mode
+**ltexpprt.tex
+
+("C:\New folder (2)\gitrepo\hyperedge_activity_prediction\KDD Alternate Story\l
+texpprt.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\leqno.clo"
+File: leqno.clo 1998/08/17 v1.1c Standard LaTeX option (left equation numbers)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\New folder (2)\gitrepo\hyperedge_activity_prediction\KDD Alternate Story\l
+texpprt.sty"
+*** ACM/SIAM LaTeX2E Preprint Series macro package, version 1.0, September 5, 1
+996 ***
+\outerparskip=\skip43
+\c@@theorem=\count87
+\c@@algorithm=\count88
+\c@lemma=\count89
+\c@fact=\count90
+\c@corollary=\count91
+\c@axiom=\count92
+\c@cond=\count93
+\c@property=\count94
+\c@proposition=\count95
+\c@Conjecture=\count96
+\c@Definition=\count97
+\c@Lemma=\count98
+\c@Remark=\count99
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+
+! LaTeX Error: File `subfig.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\euscript.sty"
+Package: euscript 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen105
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count101
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count102
+\leftroot@=\count103
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count104
+\DOTSCASE@=\count105
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count106
+\c@MaxMatrixCols=\count107
+\dotsspace@=\muskip10
+\c@parentequation=\count108
+\dspbrk@lvl=\count109
+\tag@help=\toks16
+\row@=\count110
+\column@=\count111
+\maxfields@=\count112
+\andhelp@=\toks17
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks18
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+
+! LaTeX Error: File `algorithm.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+
+! LaTeX Error: File `algorithmic.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+
+! LaTeX Error: File `bbm.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen114
+\extrarowheight=\dimen115
+\NC@list=\toks20
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
+\TX@col@width=\dimen116
+\TX@old@table=\dimen117
+\TX@old@col=\dimen118
+\TX@target=\dimen119
+\TX@delta=\dimen120
+\TX@cols=\count113
+\TX@ftn=\toks21
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count114
+\float@exts=\toks22
+\float@box=\box28
+\@float@everytoks=\toks23
+\@floatcapt=\box29
+)
+("C:\New folder (2)\gitrepo\hyperedge_activity_prediction\KDD Alternate Story\l
+texpprt.aux"
+
+LaTeX Warning: Label `overflow' multiply defined.
+
+
+LaTeX Warning: Label `alg2' multiply defined.
+
+
+LaTeX Warning: Label `alg2' multiply defined.
+
+
+LaTeX Warning: Label `alg2' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count115
+\scratchdimen=\dimen121
+\scratchbox=\box30
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen122
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks25
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 98.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 98.
+
+Underfull \hbox (badness 1354) in paragraph at lines 98--98
+[][]\OT1/cmr/m/n/8 Dept. of Com-puter Sci-ence, Uni-ver-sity of Min-nesota,
+ []
+
+
+LaTeX Warning: Citation `VÃ¡zquez28122004' on page 1 undefined on input line 11
+7.
+
+
+LaTeX Warning: Citation `coleman1988social' on page 1 undefined on input line 1
+19.
+
+
+LaTeX Warning: Citation `katz1997research' on page 1 undefined on input line 11
+9.
+
+
+LaTeX Warning: Citation `newman2001structure' on page 1 undefined on input line
+ 119.
+
+
+LaTeX Warning: Citation `barabasi2002evolution' on page 1 undefined on input li
+ne 119.
+
+<hypergraph.JPG, id=1, 322.95656pt x 430.60875pt>
+File: hypergraph.JPG Graphic file (type jpg)
+ <use hypergraph.JPG>
+Package pdftex.def Info: hypergraph.JPG used on input line 124.
+(pdftex.def)             Requested size: 62.59605pt x 83.45914pt.
+
+<bipartite.JPG, id=2, 358.33875pt x 371.13657pt>
+File: bipartite.JPG Graphic file (type jpg)
+ <use bipartite.JPG>
+Package pdftex.def Info: bipartite.JPG used on input line 131.
+(pdftex.def)             Requested size: 71.13188pt x 73.671pt.
+
+
+LaTeX Warning: Citation `putnam1996bona' on page 1 undefined on input line 139.
+
+
+
+LaTeX Warning: Citation `newman2001structure' on page 1 undefined on input line
+ 139.
+
+
+LaTeX Warning: Citation `ghoshal2009random' on page 1 undefined on input line 1
+39.
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no   in font cmr10!
+
+LaTeX Warning: Citation `guimera2005team' on page 1 undefined on input line 139
+.
+
+
+LaTeX Warning: Citation `clusteringdhillon' on page 1 undefined on input line 1
+39.
+
+
+LaTeX Warning: Citation `clustering2' on page 1 undefined on input line 139.
+
+
+LaTeX Warning: Citation `clustering3' on page 1 undefined on input line 139.
+
+
+LaTeX Warning: Citation `faust1997centrality' on page 1 undefined on input line
+ 139.
+
+
+LaTeX Warning: Citation `RDF' on page 1 undefined on input line 139.
+
+
+LaTeX Warning: Citation `dhruv2013' on page 1 undefined on input line 139.
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+ <C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD Alternate Story/h
+ypergraph.JPG> <C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD Alt
+ernate Story/bipartite.JPG>]
+
+LaTeX Warning: Citation `agarwal2008' on page 2 undefined on input line 148.
+
+
+LaTeX Warning: Citation `latent2013' on page 2 undefined on input line 148.
+
+
+LaTeX Warning: Citation `latent2013' on page 2 undefined on input line 148.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 154.
+
+
+LaTeX Warning: Citation `estrada2005complex' on page 2 undefined on input line 
+166.
+
+
+LaTeX Warning: Citation `berge1973graphs' on page 2 undefined on input line 166
+.
+
+
+LaTeX Warning: Citation `pearson2012spectral' on page 2 undefined on input line
+ 166.
+
+
+LaTeX Warning: Citation `xie2013h' on page 2 undefined on input line 166.
+
+
+LaTeX Warning: Citation `Zhou07' on page 2 undefined on input line 166.
+
+
+LaTeX Warning: Citation `tian2009hypergraph' on page 2 undefined on input line 
+166.
+
+
+LaTeX Warning: Citation `klamt2009hypergraphs' on page 2 undefined on input lin
+e 166.
+
+
+LaTeX Warning: Citation `fagin1983degrees' on page 2 undefined on input line 16
+6.
+
+
+LaTeX Warning: Citation `han1998hypergraph' on page 2 undefined on input line 1
+66.
+
+
+LaTeX Warning: Citation `dhruv2013' on page 2 undefined on input line 166.
+
+
+LaTeX Warning: Citation `taramasco2010academic' on page 2 undefined on input li
+ne 166.
+
+! Too many }'s.
+l.166 ...e bipartite graphs \{hypergraphsbook1970}
+                                                  . Agarwal et al. have argu...
+
+? 
+
+LaTeX Warning: Citation `agarwal2008' on page 2 undefined on input line 166.
+
+! Too many }'s.
+l.166 ...methods \cite{agarwal2008}. \{latent2013}
+                                                   is a recent work on (old)...
+
+? 
+[2]
+
+LaTeX Warning: Citation `clusteringdhillon' on page 3 undefined on input line 1
+68.
+
+
+LaTeX Warning: Citation `clustering2' on page 3 undefined on input line 168.
+
+
+LaTeX Warning: Citation `clustering3' on page 3 undefined on input line 168.
+
+
+LaTeX Warning: Citation `RDF' on page 3 undefined on input line 168.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+[]\OT1/cmr/bx/n/10 Hyperedge Pre-dic-tion prob-lems and
+ []
+
+<intuition.JPG, id=21, 692.5875pt x 547.2947pt>
+File: intuition.JPG Graphic file (type jpg)
+ <use intuition.JPG>
+Package pdftex.def Info: intuition.JPG used on input line 198.
+(pdftex.def)             Requested size: 170.71652pt x 134.90259pt.
+
+Underfull \hbox (badness 1803) in paragraph at lines 210--211
+[]\OT1/cmr/m/it/10 Independent dyadic in-ter-ac-tions fail to pre-dict
+ []
+
+[3 <C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD Alternate Story
+/intuition.JPG>] <time_snap.jpg, id=30, 541.27219pt x 420.82219pt>
+File: time_snap.jpg Graphic file (type jpg)
+
+<use time_snap.jpg>
+Package pdftex.def Info: time_snap.jpg used on input line 217.
+(pdftex.def)             Requested size: 170.71652pt x 132.72664pt.
+
+
+LaTeX Warning: Citation `pearson2012spectral' on page 4 undefined on input line
+ 231.
+
+
+LaTeX Warning: Citation `kolda07' on page 4 undefined on input line 231.
+
+
+LaTeX Warning: Citation `kolda11' on page 4 undefined on input line 231.
+
+LaTeX Font Info:    Try loading font information for U+eus on input line 232.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\ueus.fd"
+File: ueus.fd 2009/06/22 v3.00 Euler Script
+)
+Underfull \hbox (badness 2189) in paragraph at lines 234--235
+[]\OT1/cmr/m/n/10 Similar to hy-per-graph we rep-re-sent graph as
+ []
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.237 \caption
+              {PREDICT-COLLAB($C_{hist}$, $isHypergraph$)} % give the algori...
+
+? 
+! Undefined control sequence.
+\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
+                                                  \@captype }
+l.237 \caption
+              {PREDICT-COLLAB($C_{hist}$, $isHypergraph$)} % give the algori...
+
+? 
+! Undefined control sequence.
+\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
+                                                  }
+l.237 \caption
+              {PREDICT-COLLAB($C_{hist}$, $isHypergraph$)} % give the algori...
+
+? 
+
+! LaTeX Error: Environment algorithmic undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 \begin{algorithmic}
+                         [1] % enter the algorithmic environment
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--240
+[]\OT1/cmr/m/n/10 PREDICT-COLLAB($\OML/cmm/m/it/10 C[]$\OT1/cmr/m/n/10 ,
+ []
+
+! Undefined control sequence.
+l.241 \STATE
+             $\mathscr{Z}_{h}$ tensor (size \(N_{h}\times N_{a}\times N_{t}\...
+
+? 
+! Undefined control sequence.
+l.243 \STATE
+             $\mathscr{Z}_{g}$ tensor (size \(N_{g}\times N_{a}\times N_{t}\...
+
+? 
+! Undefined control sequence.
+l.245 \IF
+         {$isHypergraph$}
+? 
+! Undefined control sequence.
+l.246 \FOR
+          {$c^{(t)} \in C_{hist}$}
+? 
+! Undefined control sequence.
+l.247 \FOR
+          {$c_i^{(t)} \in c^{(t)}$}%\in \{1,2,...,N_{c}^{(t)}\}$}
+? 
+! Undefined control sequence.
+l.248 \STATE
+             Find $k$ s.t. $\phi(c_i)==h_k$ %hyperedge $h_k$ represents the ...
+
+? 
+! Undefined control sequence.
+l.249 \FOR
+          {$j$ s.t. $v_j \in \{v_{1}^{h_k},..., v_{|h_k|}^{h_k}\}=h_k $}
+? 
+! Undefined control sequence.
+l.250 \STATE
+             $\mathscr{Z}_{h}(k,j,t) = \mathscr{Z}_{h}(k,j,t) + \frac{1}{s_k}$
+? 
+! Undefined control sequence.
+l.251 \ENDFOR
+             
+? 
+! Undefined control sequence.
+l.252 \ENDFOR
+             
+? 
+! Undefined control sequence.
+l.253 \ENDFOR
+             
+? 
+! Undefined control sequence.
+l.255 \STATE
+             $\mathbf{S}_h$ = BUILD-SIMILARITY-MATRIX ($\mathscr{Z}_{h}$, $N...
+
+? 
+! Undefined control sequence.
+<recently read> \RETURN 
+                        
+l.256 \RETURN
+             { \textbf{return} HYPERGRAPH-PROB-VECTOR ($\mathbf{S}_h$, $N_h,...
+
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
+[]$\OT1/cmr/bx/n/10 S[]$ \OT1/cmr/m/n/10 = BUILD-SIMILARITY-MATRIX ($\U/eus/m/n
+/10 Z[]$\OT1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
+\OT1/cmr/bx/n/10 re-turn \OT1/cmr/m/n/10 HYPERGRAPH-PROB-VECTOR ($\OT1/cmr/bx/n
+/10 S[]$\OT1/cmr/m/n/10 ,
+ []
+
+! Undefined control sequence.
+l.258 \ELSE
+           
+? 
+! Undefined control sequence.
+l.259 \FOR
+          {$c^{(t)} \in C_{hist}$}
+? 
+! Undefined control sequence.
+l.260 \FOR
+          {$c_i^{(t)} \in c^{(t)}$}%\in \{1,2,...,N_{c}^{(t)}\}$}
+? 
+! Undefined control sequence.
+l.261 \STATE
+             Find $k$ s.t. $\phi(c_i)==h_k$ %hyperedge $h_k$ represents the ...
+
+? 
+! Undefined control sequence.
+l.262 \STATE
+             $s_k$ is the cardinality of hyperedge $h_k$.
+? 
+! Undefined control sequence.
+l.263 \FOR
+          {Each of the ${s_{k} \choose 2}$ dyadic links, $d_p$ of the hypere...
+
+? 
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 263.
+
+! Undefined control sequence.
+l.264 \STATE
+             Find $k'$ s.t. dyadic edge $d_p$ represents the same subset as ...
+
+? 
+! Undefined control sequence.
+l.265 \FOR
+          {$j$ s.t. $v_j \in \{v_{1}^{d_p},v_{2}^{d_p}\}=d_p $}
+? 
+! Undefined control sequence.
+l.266 \STATE
+             $\mathscr{Z}_{g}(k',j,t) = \mathscr{Z}_{g}(k',j,t) + \frac{1}{s...
+
+? 
+! Undefined control sequence.
+l.267 \ENDFOR
+             
+? 
+! Undefined control sequence.
+l.268 \ENDFOR
+             
+? 
+! Undefined control sequence.
+l.269 \ENDFOR
+             
+? 
+! Undefined control sequence.
+l.270 \ENDFOR
+             
+? 
+! Undefined control sequence.
+l.272 \STATE
+             {$\mathbf{S}_g$ = BUILD-SIMILARITY-MATRIX ($\mathscr{Z}_{g}$, $...
+
+? 
+! Undefined control sequence.
+<recently read> \RETURN 
+                        
+l.273 \RETURN
+             { \textbf{return} GRAPH-PROB-VECTOR ($\mathbf{S}_g$, $N_g, N_a$)}
+? 
+! Undefined control sequence.
+l.274 \ENDIF
+            
+? 
+! Undefined control sequence.
+l.275 \RETURN
+             
+? 
+
+! LaTeX Error: \begin{@algorithm} on input line 236 ended by \end{algorithmic}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276 \end{algorithmic}
+                       
+? 
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.281 \caption
+              {BUILD-SIMILARITY-MATRIX ($\mathscr{Z}$, $N_a, N_b$) } % give ...
+
+? 
+! Undefined control sequence.
+\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
+                                                  \@captype }
+l.281 \caption
+              {BUILD-SIMILARITY-MATRIX ($\mathscr{Z}$, $N_a, N_b$) } % give ...
+
+? 
+! Undefined control sequence.
+\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
+                                                  }
+l.281 \caption
+              {BUILD-SIMILARITY-MATRIX ($\mathscr{Z}$, $N_a, N_b$) } % give ...
+
+? 
+
+! LaTeX Error: Environment algorithmic undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.283 \begin{algorithmic}
+                         [1] % enter the algorithmic environment
+? 
+! Undefined control sequence.
+l.285 \STATE
+             $\mathbf{S}$ similarity matrix of size $N_a \times N_b$ initial...
+
+? 
+! Undefined control sequence.
+l.286 \STATE
+             $K$ is the number of components.
+? 
+! Undefined control sequence.
+l.287 \STATE
+             $[\mathbf{\lambda}; \mathbf{A},\mathbf{B},\mathbf{C}]$ = CP-ALS...
+
+? 
+! Undefined control sequence.
+l.289 \FOR
+          {$k \in \{1,2,...,K\}$}
+? 
+! Undefined control sequence.
+l.290 \STATE
+             $\mathbf{S}$ = $\mathbf{S} + \lambda_k \gamma_k \mathbf{a_k} \m...
+
+? 
+! Undefined control sequence.
+l.291 \ENDFOR
+             
+? 
+! Undefined control sequence.
+l.293 \RETURN
+             { \textbf{return} $\mathbf{S}$}
+? 
+[4 <C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD Alternate Story
+/time_snap.jpg>]
+
+! LaTeX Error: \begin{@algorithm} on input line 280 ended by \end{algorithmic}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.295 \end{algorithmic}
+                       
+? 
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299 \caption
+              {HYPERGRAPH-PROB-VECTOR ($\mathbf{S}_h$, $N_h, N_a$) } % give ...
+
+? 
+! Undefined control sequence.
+\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
+                                                  \@captype }
+l.299 \caption
+              {HYPERGRAPH-PROB-VECTOR ($\mathbf{S}_h$, $N_h, N_a$) } % give ...
+
+? 
+! Undefined control sequence.
+\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
+                                                  }
+l.299 \caption
+              {HYPERGRAPH-PROB-VECTOR ($\mathbf{S}_h$, $N_h, N_a$) } % give ...
+
+? 
+
+! LaTeX Error: Environment algorithmic undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.301 \begin{algorithmic}
+                         [1] % enter the algorithmic environment
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--302
+[]\OT1/cmr/m/n/10 HYPERGRAPH-PROB-VECTOR
+ []
+
+! Undefined control sequence.
+l.303 \STATE
+             $\mathbf{p_h}$ is the probability vector for hyperedge likeliho...
+
+? 
+! Undefined control sequence.
+l.305 \FOR
+          {$i \in \{1,2,...,N_h\}$}
+? 
+! Undefined control sequence.
+l.307 \FOR
+          {$p$  s.t. $v_p \in h_i$}
+? 
+! Undefined control sequence.
+l.308 \STATE
+             $\mathbf{p_h}(i)$ = $\mathbf{p_h}(i) \ast \mathbf{S}_h (i,p)$
+? 
+! Undefined control sequence.
+l.309 \ENDFOR
+             
+? 
+! Undefined control sequence.
+l.310 \ENDFOR
+             
+? 
+! Undefined control sequence.
+l.312 \RETURN
+             { \textbf{return} $\mathbf{p_h}$}
+? 
+
+! LaTeX Error: \begin{@algorithm} on input line 298 ended by \end{algorithmic}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \end{algorithmic}
+                       
+? 
+
+LaTeX Warning: Citation `dhruv2013' on page 5 undefined on input line 324.
+
+
+LaTeX Warning: Citation `dhruv2013' on page 5 undefined on input line 326.
+
+
+LaTeX Warning: Citation `kolda11' on page 5 undefined on input line 330.
+
+
+LaTeX Warning: Citation `kolda09' on page 5 undefined on input line 330.
+
+
+LaTeX Warning: Citation `golub1970singular' on page 5 undefined on input line 3
+30.
+
+
+LaTeX Warning: Citation `kolda11' on page 5 undefined on input line 338.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \caption
+              {GRAPH-PROB-VECTOR ($\mathbf{S}_g$, $N_g, N_a$)} % give the al...
+
+? 
+! Undefined control sequence.
+\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
+                                                  \@captype }
+l.341 \caption
+              {GRAPH-PROB-VECTOR ($\mathbf{S}_g$, $N_g, N_a$)} % give the al...
+
+? 
+! Undefined control sequence.
+\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
+                                                  }
+l.341 \caption
+              {GRAPH-PROB-VECTOR ($\mathbf{S}_g$, $N_g, N_a$)} % give the al...
+
+? 
+
+! LaTeX Error: Environment algorithmic undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.343 \begin{algorithmic}
+                         [1] % enter the algorithmic environment
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--344
+[]\OT1/cmr/m/n/10 GRAPH-PROB-VECTOR ($\OT1/cmr/bx/n/10 S[]$\OT1/cmr/m/n/10 ,
+ []
+
+! Undefined control sequence.
+l.345 \STATE
+             $\mathbf{p_g}$ is the probability vector for edge likelihood of...
+
+? 
+! Undefined control sequence.
+l.347 \FOR
+          {$i \in \{1,2,...,N_g\}$}
+? 
+! Undefined control sequence.
+l.348 \STATE
+             $s_i$ is the cardinality of hyperedge $h_i$.
+? 
+! Undefined control sequence.
+l.349 \FOR
+          {Each of the ${s_{i} \choose 2}$ dyadic links $d_p$, of the hypere...
+
+? 
+! Undefined control sequence.
+l.351 \FOR
+          {$p$  s.t. $v_p \in d_p$}
+? 
+! Undefined control sequence.
+l.352 \STATE
+             $\mathbf{p_g}(i)$ = $\mathbf{p_g}(i) \ast \mathbf{S}_g (i,p)$
+? 
+! Undefined control sequence.
+l.353 \ENDFOR
+             
+? 
+! Undefined control sequence.
+l.354 \ENDFOR
+             
+? 
+! Undefined control sequence.
+l.355 \ENDFOR
+              \\
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--356
+
+ []
+
+! Undefined control sequence.
+l.357 \RETURN
+             { \textbf{return} $\mathbf{p_g}$}
+? 
+
+! LaTeX Error: \begin{@algorithm} on input line 340 ended by \end{algorithmic}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 \end{algorithmic}
+                       
+? 
+[5] <distribution.pdf, id=42, 433.62pt x 325.215pt>
+File: distribution.pdf Graphic file (type pdf)
+ <use distribution.pdf>
+Package pdftex.def Info: distribution.pdf used on input line 381.
+(pdftex.def)             Requested size: 142.26378pt x 106.69601pt.
+
+
+LaTeX Warning: Citation `dblp07' on page 6 undefined on input line 403.
+
+<tables.pdf, id=43, 730.73pt x 308.15125pt>
+File: tables.pdf Graphic file (type pdf)
+ <use tables.pdf>
+Package pdftex.def Info: tables.pdf used on input line 409.
+(pdftex.def)             Requested size: 492.0pt x 207.48059pt.
+ [6 <C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD Alternate Stor
+y/distribution.pdf>]
+
+LaTeX Warning: Citation `kolda07' on page 7 undefined on input line 418.
+
+
+LaTeX Warning: Citation `kolda11' on page 7 undefined on input line 418.
+
+
+LaTeX Warning: Citation `kolda11' on page 7 undefined on input line 418.
+
+! Undefined control sequence.
+l.422         \subfloat
+                       {\includegraphics[width=0.245\textwidth]{fscore_main_...
+
+? 
+<fscore_main_100.pdf, id=51, 397.485pt x 289.08pt>
+File: fscore_main_100.pdf Graphic file (type pdf)
+ <use fscore_main_100.pdf>
+Package pdftex.def Info: fscore_main_100.pdf used on input line 422.
+(pdftex.def)             Requested size: 120.5376pt x 87.6642pt.
+
+! Undefined control sequence.
+l.422 ...textwidth]{fscore_main_100.pdf}}\subfloat
+                                                  {\includegraphics[width=0....
+
+? 
+<fscore_main_1000.pdf, id=52, 397.485pt x 289.08pt>
+File: fscore_main_1000.pdf Graphic file (type pdf)
+ <use fscore_main_1000.pdf>
+Package pdftex.def Info: fscore_main_1000.pdf used on input line 422.
+(pdftex.def)             Requested size: 120.5376pt x 87.6642pt.
+
+! Undefined control sequence.
+l.430         \subfloat
+                       {\includegraphics[width=0.245\textwidth]{fscore_100_v...
+
+? 
+<fscore_100_var_train.pdf, id=53, 397.485pt x 289.08pt>
+File: fscore_100_var_train.pdf Graphic file (type pdf)
+
+<use fscore_100_var_train.pdf>
+Package pdftex.def Info: fscore_100_var_train.pdf used on input line 430.
+(pdftex.def)             Requested size: 120.5376pt x 87.6642pt.
+
+! Undefined control sequence.
+l.430 ...idth]{fscore_100_var_train.pdf}}\subfloat
+                                                  {\includegraphics[width=0....
+
+? 
+<fscore_1000_var_train.pdf, id=54, 397.485pt x 289.08pt>
+File: fscore_1000_var_train.pdf Graphic file (type pdf)
+
+<use fscore_1000_var_train.pdf>
+Package pdftex.def Info: fscore_1000_var_train.pdf used on input line 430.
+(pdftex.def)             Requested size: 120.5376pt x 87.6642pt.
+
+Underfull \hbox (badness 1776) in paragraph at lines 438--439
+ \OT1/cmr/bx/n/10 5.2 Eval-u-a-tion[] \OT1/cmr/m/n/10 In this sec-tion four ex-
+per-i-ments
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
+
+ []
+
+
+Underfull \vbox (badness 1502) has occurred while \output is active []
+
+ [7 <C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD Alternate Stor
+y/tables.pdf> <C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD Alte
+rnate Story/fscore_main_100.pdf> <C:/New folder (2)/gitrepo/hyperedge_activity_
+prediction/KDD Alternate Story/fscore_main_1000.pdf> <C:/New folder (2)/gitrepo
+/hyperedge_activity_prediction/KDD Alternate Story/fscore_100_var_train.pdf> <C
+:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD Alternate Story/fsco
+re_1000_var_train.pdf>]
+Underfull \hbox (badness 2035) in paragraph at lines 468--469
+[]\OT1/cmr/m/n/10 This study con-sid-ers col-lab-o-ra-tions of size =
+ []
+
+! Undefined control sequence.
+l.509         \subfloat
+                       {\includegraphics[width=0.245\textwidth]{fscore_100_v...
+
+? 
+<fscore_100_var_test.pdf, id=88, 397.485pt x 289.08pt>
+File: fscore_100_var_test.pdf Graphic file (type pdf)
+
+<use fscore_100_var_test.pdf>
+Package pdftex.def Info: fscore_100_var_test.pdf used on input line 509.
+(pdftex.def)             Requested size: 120.5376pt x 87.6642pt.
+
+! Undefined control sequence.
+l.509 ...width]{fscore_100_var_test.pdf}}\subfloat
+                                                  {\includegraphics[width=0....
+
+? 
+<fscore_1000_var_test.pdf, id=89, 397.485pt x 289.08pt>
+File: fscore_1000_var_test.pdf Graphic file (type pdf)
+
+<use fscore_1000_var_test.pdf>
+Package pdftex.def Info: fscore_1000_var_test.pdf used on input line 509.
+(pdftex.def)             Requested size: 120.5376pt x 87.6642pt.
+ [8 <C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD Alternate Stor
+y/fscore_100_var_test.pdf> <C:/New folder (2)/gitrepo/hyperedge_activity_predic
+tion/KDD Alternate Story/fscore_1000_var_test.pdf>]
+! Undefined control sequence.
+l.528         \subfloat
+                       {\includegraphics[width=0.245\textwidth]{trivial_prec...
+
+? 
+<trivial_precision_1000.pdf, id=102, 397.485pt x 289.08pt>
+File: trivial_precision_1000.pdf Graphic file (type pdf)
+
+<use trivial_precision_1000.pdf>
+Package pdftex.def Info: trivial_precision_1000.pdf used on input line 528.
+(pdftex.def)             Requested size: 120.5376pt x 87.6642pt.
+
+! Undefined control sequence.
+l.528 ...th]{trivial_precision_1000.pdf}}\subfloat
+                                                  {\includegraphics[width=0....
+
+? 
+<trivial_recall_1000.pdf, id=103, 397.485pt x 289.08pt>
+File: trivial_recall_1000.pdf Graphic file (type pdf)
+
+<use trivial_recall_1000.pdf>
+Package pdftex.def Info: trivial_recall_1000.pdf used on input line 528.
+(pdftex.def)             Requested size: 120.5376pt x 87.6642pt.
+
+Underfull \vbox (badness 3009) has occurred while \output is active []
+
+
+
+LaTeX Warning: Citation `kolda11' on page 9 undefined on input line 554.
+
+
+LaTeX Warning: Citation `kolda07' on page 9 undefined on input line 560.
+
+
+LaTeX Warning: Citation `ex1' undefined on input line 747.
+
+
+LaTeX Warning: Citation `ex2' undefined on input line 747.
+
+
+("C:\New folder (2)\gitrepo\hyperedge_activity_prediction\KDD Alternate Story\l
+texpprt.bbl") [9 <C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD A
+lternate Story/trivial_precision_1000.pdf> <C:/New folder (2)/gitrepo/hyperedge
+_activity_prediction/KDD Alternate Story/trivial_recall_1000.pdf>]
+("C:\New folder (2)\gitrepo\hyperedge_activity_prediction\KDD Alternate Story\l
+texpprt.aux")
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2197 strings out of 494045
+ 28895 string characters out of 3145956
+ 91021 words of memory out of 3000000
+ 5458 multiletter control sequences out of 15000+200000
+ 12251 words of font info for 45 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 30i,14n,22p,1932b,272s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+amsfonts/euler/eusm10.pfb>
+Output written on ltexpprt.pdf (9 pages, 661552 bytes).
+PDF statistics:
+ 179 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+

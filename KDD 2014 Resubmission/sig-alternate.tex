@@ -1,0 +1,1031 @@
+% This is "sig-alternate.tex" V2.0 May 2012
+% This file should be compiled with V2.5 of "sig-alternate.cls" May 2012
+%
+% This example file demonstrates the use of the 'sig-alternate.cls'
+% V2.5 LaTeX2e document class file. It is for those submitting
+% articles to ACM Conference Proceedings WHO DO NOT WISH TO
+% STRICTLY ADHERE TO THE SIGS (PUBS-BOARD-ENDORSED) STYLE.
+% The 'sig-alternate.cls' file will produce a similar-looking,
+% albeit, 'tighter' paper resulting in, invariably, fewer pages.
+%
+% ----------------------------------------------------------------------------------------------------------------
+% This .tex file (and associated .cls V2.5) produces:
+%       1) The Permission Statement
+%       2) The Conference (location) Info information
+%       3) The Copyright Line with ACM data
+%       4) NO page numbers
+%
+% as against the acm_proc_article-sp.cls file which
+% DOES NOT produce 1) thru' 3) above.
+%
+% Using 'sig-alternate.cls' you have control, however, from within
+% the source .tex file, over both the CopyrightYear
+% (defaulted to 200X) and the ACM Copyright Data
+% (defaulted to X-XXXXX-XX-X/XX/XX).
+% e.g.
+% \CopyrightYear{2007} will cause 2007 to appear in the copyright line.
+% \crdata{0-12345-67-8/90/12} will cause 0-12345-67-8/90/12 to appear in the copyright line.
+%
+% ---------------------------------------------------------------------------------------------------------------
+% This .tex source is an example which *does* use
+% the .bib file (from which the .bbl file % is produced).
+% REMEMBER HOWEVER: After having produced the .bbl file,
+% and prior to final submission, you *NEED* to 'insert'
+% your .bbl file into your source .tex file so as to provide
+% ONE 'self-contained' source file.
+%
+% ================= IF YOU HAVE QUESTIONS =======================
+% Questions regarding the SIGS styles, SIGS policies and
+% procedures, Conferences etc. should be sent to
+% Adrienne Griscti (griscti@acm.org)
+%
+% Technical questions _only_ to
+% Gerald Murray (murray@hq.acm.org)
+% ===============================================================
+%
+% For tracking purposes - this is V2.0 - May 2012
+
+\documentclass{sig-alternate}
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{subfig}
+\usepackage[mathscr]{euscript}
+\usepackage{amsmath}
+%\usepackage{mathspec}
+%\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{amsbsy}
+\usepackage{bbm}
+\usepackage{tabularx}
+\usepackage{float}
+
+\newcommand*\rot{\rotatebox{90}}
+%\newcommand{\mathbbm}[1]{\text{\usefont{U}{bbm}{m}{n}#1}}
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
+
+\renewcommand\topfraction{0.85}
+\renewcommand\bottomfraction{0.85}
+\renewcommand\textfraction{0.1}
+\renewcommand\floatpagefraction{0.85}
+
+\setlength\floatsep{1.25\baselineskip plus 3pt minus 2pt}
+\setlength\textfloatsep{1.25\baselineskip plus 3pt minus 2pt}
+\setlength\intextsep{1.25\baselineskip plus 3pt minus 2 pt}
+
+
+\begin{document}
+%
+% --- Author Metadata here ---
+\conferenceinfo{WOODSTOCK}{'97 El Paso, Texas USA}
+%\CopyrightYear{2007} % Allows default copyright year (20XX) to be over-ridden - IF NEED BE.
+%\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
+% --- End of Author Metadata ---
+
+\title{Predicting Multi-actor collaborations using Hypergraphs}
+
+%\titlenote{A full version of this paper is available as
+%\textit{Author's Guide to Preparing ACM SIG Proceedings Using
+%\LaTeX$2_\epsilon$\ and BibTeX} at
+%\texttt{www.acm.org/eaddress.htm}}}
+
+%
+% You need the command \numberofauthors to handle the 'placement
+% and alignment' of the authors beneath the title.
+%
+% For aesthetic reasons, we recommend 'three authors at a time'
+% i.e. three 'name/affiliation blocks' be placed beneath the title.
+%
+% NOTE: You are NOT restricted in how many 'rows' of
+% "name/affiliations" may appear. We just ask that you restrict
+% the number of 'columns' to three.
+%
+% Because of the available 'opening page real-estate'
+% we ask you to refrain from putting more than six authors
+% (two rows with three columns) beneath the article title.
+% More than six makes the first-page appear very cluttered indeed.
+%
+% Use the \alignauthor commands to handle the names
+% and affiliations for an 'aesthetic maximum' of six authors.
+% Add names, affiliations, addresses for
+% the seventh etc. author(s) as the argument for the
+% \additionalauthors command.
+% These 'additional authors' will be output/set for you
+% without further effort on your part as the last section in
+% the body of your article BEFORE References or any Appendices.
+
+\numberofauthors{8} %  in this sample file, there are a *total*
+% of EIGHT authors. SIX appear on the 'first-page' (for formatting
+% reasons) and the remaining two appear in the \additionalauthors section.
+%
+\author{
+% You can go ahead and credit any number of authors here,
+% e.g. one 'row of three' or two rows (consisting of one row of three
+% and a second row of one, two or three).
+%
+% The command \alignauthor (no curly braces needed) should
+% precede each author name, affiliation/snail-mail address and
+% e-mail address. Additionally, tag each line of
+% affiliation/address with \affaddr, and tag the
+% e-mail address with \email.
+%
+% 1st. author
+\alignauthor
+Ankit Sharma\\
+       \affaddr{Dept. of Computer Science}\\
+       \affaddr{University of Minnesota}\\
+       \affaddr{200 Union Street}\\
+       \affaddr{Minneapolis, MN 55455}\\
+       \email{ankit@cs.umn.edu}
+% 2nd. author
+\alignauthor
+Jaideep Srivastava\\
+       \affaddr{Dept. of Computer Science}\\
+       \affaddr{University of Minnesota}\\
+       \affaddr{200 Union Street}\\
+       \affaddr{Minneapolis, MN 55455}\\
+       \email{srivasta@cs.umn.edu}
+% 3rd. author
+\alignauthor
+Abhishek Chandra\\
+       \affaddr{Dept. of Computer Science}\\
+       \affaddr{University of Minnesota}\\
+       \affaddr{200 Union Street}\\
+       \affaddr{Minneapolis, MN 55455}\\
+       \email{chandra@cs.umn.edu}
+}
+% There's nothing stopping you putting the seventh, eighth, etc.
+% author on the opening page (as the 'third row') but we ask,
+% for aesthetic reasons that you place these 'additional authors'
+% in the \additional authors block, viz.
+\additionalauthors{Additional authors: John Smith (The Th{\o}rv{\"a}ld Group,
+email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
+(The Kumquat Consortium, email: {\texttt{jpkumquat@consortium.net}}).}
+\date{30 July 1999}
+% Just remember to make sure that the TOTAL number of authors
+% is the number that will appear on the first page PLUS the
+% number that will appear in the \additionalauthors section.
+
+\maketitle
+\begin{abstract}
+Social networks are now ubiquitous and most of them contain interactions involving multiple actors (groups) like author collaborations, teams or emails in an organizations, etc. \(Hypergraphs\) are natural structures to effectively capture multi-actor interactions which conventional dyadic graphs fail to capture. In this work the problem of predicting collaborations is addressed while modeling the collaboration network as a hypergraph network. The problem of predicting future multi-actor collaboration is mapped to hyperedge prediction problem. Given that the higher order edge prediction is an inherently hard problem, in this work we restrict to the task of predicting edges (collaborations) that have already been observed in past. In this work, we propose a novel use of hyperincidence temporal tensors to capture time varying hypergraphs and provides a tensor decomposition based prediction algorithm. We quantitatively compare the performance of the hypergraphs based approach with the conventional dyadic graph based approach. Our hypothesis that hypergraphs preserve the information that simple graphs destroy is corroborated by experiments using author collaboration network from the DBLP dataset. Our results demonstrate the strength of hypergraph based approach to predict higher order collaborations (size$>$4) which is very difficult using dyadic graph based approach. Moreover, while predicting collaborations of size$>$2 hypergraphs in most cases provide better results with an average increase of approx. 45\% in F-Score for different sizes $\in \{3,4,5,6,7\}$ (Figure 6). 
+\end{abstract}
+
+% A category with the (minimum) three required fields
+\category{H.4}{Information Systems Applications}{Miscellaneous}
+%A category including the fourth, optional field follows...
+\category{D.2.8}{Software Engineering}{Metrics}[complexity measures, performance measures]
+
+%\terms{Theory}
+
+\keywords{Collaboration networks, social networks, link prediction, tensors, hypergraphs, team formation}
+
+\section{Introduction}
+
+The problem of understanding group dynamics is central to the field of Social Sciences. Moreover, the increasing use of internet has led to an exponential increase in amount of online interaction data. As examples, social networking sites like Facebook or Twitter, group communication tools like Skype, Google Hangout, Google Docs, Massive Online multi-player games such as World of Warcraft, etc., are generating social networking data at a massive scale. These social datasets provides minute by minute account of interaction along with the structure and the content of these relationships \cite{Vázquez28122004}. 
+
+In the domain of Social Science, a lot of studies have been conducted to understand how groups form, their static as well as dynamic attributes and structures, and how they evolve over time \cite{coleman1988social}. The research collaborations in scientific community are an excellent example of social networks in which individuals of various expertise collaborate to solve a research problem. Collaboration networks from scientific research community have been extensively used for studying team dynamics \cite{katz1997research}\cite{newman2001structure}\cite{barabasi2002evolution}. Group dynamics has real life applications as well for example in building emergency response teams for natural disasters management, automation of team selection for military operations, etc. 
+
+\begin{figure}[ht]
+\begin{minipage}[b]{0.40\linewidth}
+\centering
+\includegraphics[width=22mm]{hypergraph.JPG}
+\caption{Hypergraph}
+\label{fig:figure1}
+\end{minipage}
+\hspace{0.5cm}
+\begin{minipage}[b]{0.40\linewidth}
+\centering
+\includegraphics[width=25mm]{bipartite.JPG}
+\caption{Bipartite of hypergraph (Fig.1)}
+\label{fig:figure2}
+\end{minipage}
+\vspace{-1.1em}
+\end{figure}
+
+The above examples reveal that there can be multiple overlapping collaborations which form a network of collaborations. Modeling such collaborations in dynamic settings where relationship between actors is evolving over time is a challenging task. 
+ Unfortunately, most of the prior research in social network analysis deals with dyadic interactions or small well-defined groups \cite{putnam1996bona} rather than at the group level. There are some studies that have dealt with group interactions by collapsing the group into dyadic links \cite{newman2001structure} and therefore, fail to keep the group level information intact. Ghoshal et. al. \cite{ghoshal2009random} have used tripartite regular hypergraph whcih captures folksonomy data but is too restrictive to capture variable size social collaborations. Guimerà et al. \cite{guimera2005team} attempts attempts to model group using node and group attributes which can explain the network structure but fails to deal with individual group evolution. Bipartite graphs (figure 2) as network models have also been used to capture groups \cite{faust1997centrality} where one set of nodes represent event/collectives/groups and the other second set of nodes represent the actors. But in this model the relations between the actors have to be derived as the group relation is not represented in an intact manner \cite{dhruv2013}. 
+
+Hypergraphs are generalization of graphs, which can have more than two node in an edge (rather than simple graphs where only 2 nodes are part of an edge). Therefore, hypergraphs can easily capture the coexistence of more than two entities in a single relation. Figure 1 shows a hypergraph with five nodes and three edges.
+
+\subsection{Related Work}
+
+Hypergraphs can easily capture the higher-order relationships while incorporating both group and node level attributes. Moreover, research has shown that several social, biological, ecological and technological systems can be better modeled using hypergraphs than using dyadic proxies \cite{estrada2005complex}. There is an abundant literature of hypergraph theory in past \cite{berge1973graphs} and many work in the spectral theory of hypergraphs recently \cite{pearson2012spectral}\cite{xie2013h}. The past decade has also seen an increasing interest for hypergraphs in machine learning community \cite{Zhou07}\cite{tian2009hypergraph}. Hypergraphs have been used to model complex networks in different fields including biology \cite{klamt2009hypergraphs}, databases \cite{fagin1983degrees} and data mining \cite{han1998hypergraph}. In the domain of social sciences, Kapoor et a.l \cite{dhruv2013} have proposed with centrality metrics for weighted hypergraphs. Tramasco et al. \cite{taramasco2010academic} propose hypergraphs based metrics to evaluate various hypothesis, both semantic and structural, regarding team formation. 
+
+%\cite{sun08} spect
+%\cite{lamport94} ml
+
+Although a lot of work done has been regarding mathematical formulation of hypergraphs, very few works (as stated above) capture the full potential of hypergraph models for real world applications. In this paper, we address the problem of higher order collaboration predictions by modeling it as a hyperedge prediction problem. The collaboration network is modeled as a hypergraph network. Given a previous history of the collaborations we predict collaborations using an supervised approach for hyperedge prediction. In order to capture the time varying hypergraphs and graphs we propose with a novel application of tensor in the form of incidence or hyper-incidence tensors. Our results show that graphs give significantly lower F-Score for higher order groups of size= $\{4,5,6,7\}$ in comparison to hypergraph for most of the cases. In predicting collaborations (hyperedges) higher than size two i.e. more than two entities, hypergraphs in most cases provide better results with an average increase of approx. 45\% in F-Score for different sizes $\in \{3,4,5,6,7\}$ (Figure 6). The main contributions of the paper are summarized as follows:
+
+Our results demonstrate the strength of hypergraph based approach to predict higher order collaborations (size$>$4) which is very difficult using dyadic graph based approach. Moreover, while predicting collaborations of size$>$2 hypergraphs in most cases provide better results with a (25-150)\% increase in F-Score for different sizes $\in \{4,5,6,7\}$  and various training-test splits. 
+
+\begin{itemize}
+\item We show a quantitative comparison between graphs and hypergraphs from an applications perspective. This to the best of our knowledge is a pioneer work.
+\item We propose a novel application of tensors to capture hypergraphs and use the decomposed tensor's factors to come up with a prediction model for higher order groups.
+
+\item We have successfully addressed the problem of predicting collaborations of higher order which has been rearely dealt with in the past research as it is a problem of considerable complexity.
+\end{itemize} 
+
+The rest of the paper is as follows: Section 2 nails down the various hyperedge prediction problems, Section 3 proposes our hypothesis to be evaluated, Section 4 talks about the tensors based algorithm to capture this hypothesis, Section 5 talks about the experiments conducted and results are discussed, which is followed by conclusion and future work.
+
+\section{Hyperedge Prediction problems and Preliminaries}
+
+In this section we describe how higher order collaboration prediction can be mapped to hyperedge prediction problem. 
+
+\subsection{Problem Statement}
+
+In this paper we have used research collaborations where a set of authors ($actors$) collaborate for research. Each of these collaboration results in a $publication$ and each of these publications represents an instance of this collaboration. This means that the same $collaboration$ might result in multiple publications. Each of these $collaboration$ is modeled as a hyperedge in a hypergraph whose each vertex represent an $actor$. The problem of $collaboration$ prediction can then be treated as a problem of predicting a hyperedge. This further splits in two sub-problems: 
+
+\begin{itemize}
+\item Problem of predicting the hyperedges already observed in past i.e. \textit{old edge} prediction.
+\item Problem of predicting the hyperedges that have never been observed in past i.e. \textit{new edge} prediction. 
+\end{itemize} 
+
+To the best of our knowledge these problems have not yet been addressed explicitly. In this paper we are restricting ourselves to the former problem of \textit{old edge} prediction. 
+
+\subsection{Problem Definition}
+
+Let $V = \{v_1,v_2,....,v_{N_a}\}$ be a set of vertices ($actors$). We represent the hypergraph of $collaboration$s using $HG(V,H)$ where $H$ is the incidence matrix of hypergraph which we term as \textit{hyper-incidence matrix}. This matrix \(H\) represent the set of hyperedges ($collaboration$s) $\{h_1,h_2,....,h_{N_h}\}$ where each hyperedge $h_{k} = \{ v_{1}^{h_k},..., v_{|h_k|}^{h_k} \} \subseteq V$. We divide time into small snapshots (of size $w$ as shown in Figure 4) with $t$ as its index. $N_{c}^{t}$ is the number of $publications$ occurred in snapshot $t$ and there are $N_t$ number of snapshots in past. We denote the $i^{th}$ $publication$ in the $t^{th}$ snapshot by \(c_{i}^{(t)}\) \(\forall i = \{1,2,...,N_{c}^{(t)}\}\). Each of this $publication$ $c_i^{(t)}$ represents some $collaboration$ (hyperedge) $h_k$. A mapping function $\phi$ is defined which returns the $collaboration$ (hyperedge) represented by a given $publication$ such that $\phi(c_i^{(t)})=h_k $ $\forall k=\{1,....,N_h\}$ where $N_h$ are the number of distinct $collaborations$ (hyperedges) in the past. Size of $H$ is therefore, $N_h \times N_a$ and we call $s_k$ as the cardinality (No. of vertices inside $h_k$) of the hyperedge $h_k$ i.e. $s_k = |h_k|$.
+
+The problem of \textit{old link} prediction is now defined as follows: Given a past history of collaborations $C_{hist}=\{c^{(t)}\}_{t=1}^{N_t}$ our goal for the problem of \textit{old link} prediction is to predict the likelihood of future occurrence of each of the hyperedges $h_k$ $\forall k=\{1,....,N_h\}$ (i.e. \textit{collaboration}s already observed in past).
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=60mm]{intuition.JPG}
+\caption{Toy Example showing of two $publication$s published by $collaboration$ (A, B, C) in year=2 and year=8 with their hyperedge (top) and clique of dyadic edges (bottom) representation.}
+\label{overflow}
+\vspace{-1.7em}
+\end{figure}
+
+\section{Hypothesis}
+
+In this section we state the hypothesis which is evaluated in this work. We claim that modeling social collaborations or interactions as hypergraph is likely to conserve a lot of information that is destroyed when modeled as dyadic graphs. The claim is supported by the following examples:
+
+\begin{itemize}
+
+\item \textit{Independent dyadic interactions fail to predict higher order interactions :} For example, if A and B talk to each other often and similarly does, the pair (B-C) and (C-A). But this is unable to capture the same information nor can it give a sufficient prediction that (A-B-C) in a group will be interacting together. Whereas if we have seen (A-B-C) together several times this information is completely different than what we can attain from just observing the individual interaction independently. Thus, there is a blatant need for capturing higher order interaction is a form other than dyadic interactions. 
+
+\item \textit{Higher order interactions are captured in a much better manner using hypergraphs than a corresponding dyadic clique based representation:} For example as show in Figure 3, a $collaboration$ of authors A,B and C produced couple of $publications$ in a time window of ten years. Our aim is to predict future likelihood (P(A-B-C)) of this $collaboration$ A-B-C reoccurring. If we use hyperedge representation then P(A-B-C) = 2/10. Whereas, on splitting the hyperedges as cliques of dyadic links, P(A-B-C) = P(A-B)xP(B-C)xP(C-A)= (2/10)x(2/10)x(2/10) = (8/1000) which is clearly less than the probability using the hyperedge. Hypergraph simply keeps the joint probability information intact.
+\end{itemize}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=60mm]{time_snap.jpg}
+\caption{A tensor representation of the temporal information (snapshot size=$w$). Each snapshot data is fed in the corresponding hyper-incidence matrix.}
+\label{overflow}
+\vspace{-1.7em}
+\end{figure}
+
+\section{Proposed Approach}
+
+This section describes the approach used to capture the above intuition and build a platform to conduct comparative analysis between graphs and hypergraphs. This section is divided into two sections. In the first section the hypergraph modeling using tensors is explained and the next section described the supervised hyperedge prediction. 
+
+\subsection{Collaboration Modeling}
+
+\subsubsection{Tensor and Incidence matrix representations}
+
+A tensor is a multidimensional, or N-way, array \cite{pearson2012spectral} and has proven to capture multi-dimensional data effectively \cite{kolda07}. For example Tensors allow to handle time as a separate dimension. This provides more flexibility to creatively manipulate the temporal dimension. Moreover, the temporal patterns can be captured using tensors to predict future patterns rather than just immediate future. Recently tensors have already proved effective in predicting temporal link prediction by Dunlavy et al \cite{kolda11}. This has encouraged us to capture hypergraphs and graphs using 3-way tensors where the first two dimensions capture the hypergraph/graph incidence matrix and the third dimension captures the temporal information. Keeping the same incidence matrix representation for both graph and hypergraph allows to have a parity comparison between the two models. 
+We denote the tensor for graph and hypergraph using $\mathscr{Z}_{g}$ and $\mathscr{Z}_{h}$ which represent array of the snapshots of incidence or the hyper-incidence matrix respectively (Figure 4). Snapshot \(t\) refers to a time period \(T=(w*(t-1), w*t)\). 
+
+Similar to hypergraph we represent graph as \(G(V,E)\) where the graph incidence matrix is \(E\) represent the set of edges $\{e_1,e_2,....,e_{N_g}\}$. Each edge contains a pair of vertices i.e. \(e_k=\{v_i^{e_k},v_j^{e_k}\} \subseteq V\) (Section 4.1.2 describes the method to obtain these edges). For the snapshot \(t\) we represent incidence matrix for graph as \(E^{(t)}\) and use \(H^{(t)}\) for the hyper-incidence matrix. Here, \(E^{(t)}\) has the dimension (\(N_{g}\times N_{a}\)) where \(N_{g}\) is the number of distinct dyadic edges between any two actors that have been observed uptil current time. Similarly, the dimension of \(H^{(t)}\) is (\(N_{h}\times N_{a}\)) where \(N_{h}\) is the number of distinct multi-actor $collaborations$ (hyperedges) between the actors that are observed till now. Note that in \(E^{(t)}\) and \(H^{(t)}\) only information of publications in snapshot $t$ is stored but they have same dimension for all values of $t$.
+
+\begin{algorithm} % enter the algorithm environment
+\caption{PREDICT-COLLAB($C_{hist}$, $isHypergraph$)} % give the algorithm a caption
+\label{alg2} % and a label for \ref{} commands later in the document
+\begin{algorithmic}[1] % enter the algorithmic environment
+
+\STATE $\mathscr{Z}_{h}$ tensor (size \(N_{h}\times N_{a}\times N_{t}\)) initialized to all zeros.
+
+\STATE $\mathscr{Z}_{g}$ tensor (size \(N_{g}\times N_{a}\times N_{t}\)) initialized to all zeros.
+
+\IF{$isHypergraph$} 
+\FOR{$c^{(t)} \in C_{hist}$}
+\FOR{$c_i^{(t)} \in c^{(t)}$}%\in \{1,2,...,N_{c}^{(t)}\}$}
+\STATE Find $k$ s.t. $\phi(c_i)==h_k$ %hyperedge $h_k$ represents the same subset as $c_i$.
+\FOR{$j$ s.t. $v_j \in \{v_{1}^{h_k},..., v_{|h_k|}^{h_k}\}=h_k $} 
+\STATE $\mathscr{Z}_{h}(k,j,t) = \mathscr{Z}_{h}(k,j,t) + \frac{1}{s_k}$
+\ENDFOR
+\ENDFOR 
+\ENDFOR 
+
+\STATE $\mathbf{S}_h$ = BUILD-SIMILARITY-MATRIX ($\mathscr{Z}_{h}$, $N_h, N_a$) \\
+\RETURN{ \textbf{return} HYPERGRAPH-PROB-VECTOR ($\mathbf{S}_h$, $N_h, N_a$)}
+
+\ELSE
+\FOR{$c^{(t)} \in C_{hist}$}
+\FOR{$c_i^{(t)} \in c^{(t)}$}%\in \{1,2,...,N_{c}^{(t)}\}$}
+\STATE Find $k$ s.t. $\phi(c_i)==h_k$ %hyperedge $h_k$ represents the same subset as $c_i$.
+\STATE $s_k$ is the cardinality of hyperedge $h_k$.
+\FOR{Each of the ${s_{k} \choose 2}$ dyadic links, $d_p$ of the hyperedge $h_k$ as a clique.} 
+\STATE Find $k'$ s.t. dyadic edge $d_p$ represents the same subset as $c_i$
+\FOR{$j$ s.t. $v_j \in \{v_{1}^{d_p},v_{2}^{d_p}\}=d_p $} 
+\STATE $\mathscr{Z}_{g}(k',j,t) = \mathscr{Z}_{g}(k',j,t) + \frac{1}{s_k}$
+\ENDFOR
+\ENDFOR
+\ENDFOR
+\ENDFOR
+
+\STATE {$\mathbf{S}_g$ = BUILD-SIMILARITY-MATRIX ($\mathscr{Z}_{g}$, $N_g, N_a$)}  \\ 
+\RETURN{ \textbf{return} GRAPH-PROB-VECTOR ($\mathbf{S}_g$, $N_g, N_a$)}
+\ENDIF
+\RETURN
+\end{algorithmic}
+\end{algorithm}
+
+
+\begin{algorithm} % enter the algorithm environment
+\caption{BUILD-SIMILARITY-MATRIX ($\mathscr{Z}$, $N_a, N_b$) } % give the algorithm a caption
+\label{alg2} % and a label for \ref{} commands later in the document
+\begin{algorithmic}[1] % enter the algorithmic environment
+
+\STATE $\mathbf{S}$ similarity matrix of size $N_a \times N_b$ initialized with all zeros.
+\STATE $K$ is the number of components.
+\STATE $[\mathbf{\lambda}; \mathbf{A},\mathbf{B},\mathbf{C}]$ = CP-ALS($\mathscr{Z}$)
+
+\FOR{$k \in \{1,2,...,K\}$}
+\STATE $\mathbf{S}$ = $\mathbf{S} + \lambda_k \gamma_k \mathbf{a_k} \mathbf{b_k^\top}$
+\ENDFOR 
+
+\RETURN{ \textbf{return} $\mathbf{S}$}
+
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm} % enter the algorithm environment
+\caption{HYPERGRAPH-PROB-VECTOR ($\mathbf{S}_h$, $N_h, N_a$) } % give the algorithm a caption
+\label{alg2} % and a label for \ref{} commands later in the document
+\begin{algorithmic}[1] % enter the algorithmic environment
+
+\STATE $\mathbf{p_h}$ is the probability vector for hyperedge likelihood of length $N_h$ initialized to all one.
+
+\FOR{$i \in \{1,2,...,N_h\}$}
+%\STATE $V_p$ be the subset of vertices which represent hyperedge $i$
+\FOR{$p$  s.t. $v_p \in h_i$}
+\STATE $\mathbf{p_h}(i)$ = $\mathbf{p_h}(i) \ast \mathbf{S}_h (i,p)$ 
+\ENDFOR 
+\ENDFOR 
+
+\RETURN{ \textbf{return} $\mathbf{p_h}$}
+
+\end{algorithmic}
+\end{algorithm}
+
+Therefore, $\mathscr{Z}_{g}(:,:,t)=E^{(t)}$ and $\mathscr{Z}_{h}(:,:,t)=H^{(t)}$ both representing array of snapshots of respective incidence matrices. Dimension of $\mathscr{Z}_{g}$ finally becomes \(N_{g}\times N_{a}\times N_{t}\) and $\mathscr{Z}_{h}$ becomes \(N_{h}\times N_{a}\times N_{t}\) dimensional.
+
+\subsubsection{Loading Tensors}
+
+Next step is to extract effective modeling information from historical publication data $C_{hist}$ and feed it into both the graph and hypergraph tensors. The following couple of subsections describe this process for graphs and hypergraphs separately. We are using the following terms interchangeably: hyperedge and collaboration, occurrence of hyperedge and publication; and vertex and actor.
+
+\textbf{Hypergraph Case (Line (3-11) of Algorithm 1):} All hyper-incidence matrices \(H^{(t)}\)  \(\forall t \) have the same dimension and thus, the same number, \(N_{h}\), of unique hyperedges. Each one of these hyperedges \(h_{k}\) \(\forall k \in \{1,2,...,N_{h}\}\) represent a unique collaboration between a subset of actors (vertices) i.e. \(h_{k} \subseteq V\). For each of the publication \(c_{i}^{(t)} \in c^{t}\) for \(i= \{1,2,...,N_{c}^{(t)}\}\) find the \(k \in \{1,2,...,N_{h}\}\) such that \(c_{i}^{(t)}\) represents the same subset of vertices as \(h_{k}\) i.e. $\phi(c_{i}^{(t)})==h_k$. For this index \(k\) of the hyperedge, the tensor is filled as $\mathscr{Z}_{h}(k,j,t)= \frac{m_k}{s_k}$ where \(j\) is the index of each vertex which is the part of the hyperedge \(h_k\), \(s_k\) is the cardinality of the hyperedge \(h_{k}\) and \(m_{k}\) is the multiplicity of the hyperedge \(h_{k}\). 
+Multiplicity is calculated as the log (No. of times $h_k$ occurred in $t$), in other words how many times a particular $collaboration$ published some work in snapshot $t$. This process captures the weight of the hyperedge $h_k$ in the hypergraph tensor. The weight of the hyperedge is modeled as \((\frac{m_{k}}{s_{k}})\), as this definition of hyperedge weights is shown to give the best results by Kapoor et al.\cite{dhruv2013}. This whole process is repeated for all the time snapshots. 
+
+\textbf{Graph Case (Line (14-25) of Algorithm 1):} In case of graph also the graph-incidence matrices \(G^{(t)}\) \(\forall t \) have the same dimension and same number, \(N_{g}\), of unique edges. Each of these edges \(g_{k}\) represent a unique set (dyadic collaboration) between two vertices (actors), \(g_{k} =\{v_i^{g_k},v_j^{g_k}\} \subseteq V\). For each publication \(c_{i}^{(t)} \in c^{t}\) for \(i= \{1,2,...,N_{c}^{(t)}\}\) find the $k \in \{1,....,N_{h}\}$ such that $\phi(c_{i}^{(t)})==h_k$. This hyperedge $h_k$ is broken in to ${s_{c} \choose 2}$ dyadic edges and let us denote each of the dyadic link by \(d_{p}\). For each of the \(d_p\) find the index \(k^{'} \in \{1,2,...,N_{g}\}\) for which the \(d_p\) represents the same edge as \(g_{k}\). For this index \(k^{'}\) the tensor is filled as $\mathscr{Z}_{g}(k^{'},j,t)= \frac{m_{k}}{s_{k}}$ where \(j\) is the index of each vertex which is the part of the edge \(d_{p}\), \(s_{k}\) is the cardinality of the hyperedge \(h_{k}\) and \(m_{k}\) is the multiplicity of the hyperedge \(h_{k}\). Thus we model the dyadic link of the clique to get the weight of the original hyperedge \cite{dhruv2013}. Again, this whole process is repeated for all the time snapshots. 
+
+\subsection{Decomposing the tensors (Algorithm 2)}
+
+Next step in the process is to decompose the tensors (loaded in the previous section). These decomposed factors are used in next section for doing $collaboration$ prediction. The method proposed in this paper for decomposition is inspired by CP Scoring using Heuristic (CPH) method of Dunlavy et al. \cite{kolda11} which has already proven successful. This method is based uses the well know CANDECOMP/PARAFAC (CP) \cite{kolda09} tensor decomposition which is analogous to Singular Value Decomposition (SVD) \cite{golub1970singular} and it converts a tensor into sum of rank one tensors. Given a three dimensional tensor $\pmb{\mathscr{X}}$ with size \(J_a \times J_b \times J_c\) its CP decomposition is given by:
+\begin{equation} 
+\pmb{\mathscr{X}} \approx \sum\limits_{f=1}^F \lambda_{f} \mathbf{a}_{f} \circ \mathbf{b}_{f} \circ \mathbf{c}_{f}
+\end{equation} 
+
+where \(\lambda_{f} \in R^{+}\), \(\mathbf{a}_{f} \in R^{J_a}\), \(\mathbf{b}_{f} \in R^{J_b}\), and \(\mathbf{c}_{f} \in R^{J_c}\). Each of the products \(\lambda_{f} \mathbf{a}_{f} \circ \mathbf{b}_{f} \circ \mathbf{c}_{f}\) is called the \(components\) whereas \(\mathbf{a}_{f}\) , \( \mathbf{b}_{f} \) and \(\mathbf{c}_{f}\) are called the \(factors\) of the decomposition. Note that though 
+%\(\parallel \mathbf{a}_f \parallel = \parallel \mathbf{b}_f \parallel = \parallel \mathbf{c}_f \parallel = 1\) 
+$\norm{\mathbf{a}_f }$=$\norm{\mathbf{b}_f}$=$\norm{\mathbf{c}_f}$=$1$
+but these factors are not orthogonal to each other as it is the case in SVD. Also \(\lambda_f\) is the weight for the \(f^{th}\) component. The decomposition is unique, unlike other tensor decomposition methods, resulting in an attractive method for prediction as the factors can be used directly \cite{kolda11}.  Note that matrices $\mathbf{A}$, $\mathbf{B}$ and $\mathbf{C}$ contain the factors $\mathbf{a}_{f}$,$\mathbf{b}_{f}$ and $\mathbf{c}_{f}$ as column vectors. 
+
+\begin{algorithm} % enter the algorithm environment
+\caption{GRAPH-PROB-VECTOR ($\mathbf{S}_g$, $N_g, N_a$)} % give the algorithm a caption
+\label{alg2} % and a label for \ref{} commands later in the document
+\begin{algorithmic}[1] % enter the algorithmic environment
+
+\STATE $\mathbf{p_g}$ is the probability vector for edge likelihood of length $N_g$ initialized to all one.
+
+\FOR{$i \in \{1,2,...,N_g\}$}
+\STATE $s_i$ is the cardinality of hyperedge $h_i$.
+\FOR{Each of the ${s_{i} \choose 2}$ dyadic links $d_p$, of the hyperedge $h_i$ as a clique.}
+%\STATE $V_p$ be the subset of vertices which represent edge $d_p$
+\FOR{$p$  s.t. $v_p \in d_p$}
+\STATE $\mathbf{p_g}(i)$ = $\mathbf{p_g}(i) \ast \mathbf{S}_g (i,p)$ 
+\ENDFOR 
+\ENDFOR 
+\ENDFOR \\
+
+\RETURN{ \textbf{return} $\mathbf{p_g}$}
+
+\end{algorithmic}
+\end{algorithm}
+
+Based upon CPH the similarity between the object \(i\) and \(j\) is contained in a similarity matrix $\mathbf{S}$ as the entry at $(i,j)$. This matrix is defined as follows:
+
+\begin{equation}
+\mathbf{S} = \sum \limits_{k=1}^{K} \gamma_k \lambda_k \mathbf{a_k} \mathbf{b_k^\top}
+\end{equation}
+
+where \begin{equation} \gamma_k = \frac{1}{T_{buf}} \left( \sum \limits_{t=T-T_{buf}+1}^{T} \mathbf{c}_k(t) \right) \end{equation}
+
+
+$\mathbf{a_kb_k^{\top}}$ for the component $k$ basically represent the similarity between the object pairs in in the $k^{th}$ component. Let the similarity matrix for graph be $\mathbf{S_g}$ (from decomposition of $\mathscr{Z}_{g}$) and for hypergraph be $\mathbf{S_h}$ (from decomposition of $\mathscr{Z}_{h}$). Compression over $T_{buf}$ number of past years (buffer) captures the intuition that only the recent past publications are relevant for prediction. 
+
+%In our case the object pair is that of $i^{th}$ Edge (or Hyperedge) and the $j^{th}$ vertex when the decomposed tensor is $\mathscr{Z}_{g}$ or $\mathscr{Z}_{h}$ respectively. We take $\mathbf{S}(i,j)$ as the likelihood of $i^{th}$ edge (or hyperedge) occurring and also contains a particular $j^{th}$ vertex.
+
+\subsection{Predicting Collaborations}
+
+In this step the similarity matrices $\mathbf{S}_g$ and $\mathbf{S}_h$ are used for predicting the edges or hyperedges. Interpretation of the similarity matrix in our approach is as follows. $\mathbf{S}_g(i,j)$ is the likelihood of the $i^{th}$ dyadic edge occurring in future and also contains vertex $j$. Similarly, for case of hypergraph $\mathbf{S}_h(i,j)$ is the likelihood of the $i^{th}$ hyperedge along with vertex $j$ inside it. In short after the tensor decomposition (and the subsequent compression along time dimension) our method outputs a similarity value for all the $actors$ for each $collaboration$ indicating how likely each of these $actors$ can start working with this $collaboration$.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=50mm]{distribution.pdf}
+\caption{Log-Log Plot depicting No. of publications over different sizes of collaboration}
+\label{fig:distribution}
+\vspace{-1.7em}
+\end{figure}
+
+\subsubsection{Hypergraph Case (Algorithm 3):}
+
+If the reassurance of $i^{th}$ hyperedge reoccurs and also contain $j^{th}$ vertex is an event. Assuming that all these events for a particular $i^{th}$ hyperedge for each of the vertices are independent the probability of $i^{th}$ hyperedge reoccurs is defined as: \begin{equation} \mathbf{p_h}(i)=\prod \limits_{p \in h_k} \mathbf{S}_h (i,p) \end{equation} 
+
+\subsubsection{Graph Case (Algorithm 4):}
+
+Similarly, in case of graphs the probability of $i^{th}$ edge reoccurring in future is: \begin{equation} \mathbf{q_g}(i)=\prod \limits_{p \in g_k} \mathbf{S}_g (i,p) \end{equation} The probability of $i^{th}$ hyperedge reoccurring using the dyadic edge probabilities is:  \begin{equation} \mathbf{p_g}(i)=\prod \limits_{q \in D} \mathbf{q_g}(q) =\prod \limits_{q \in D} \prod \limits_{p \in g_k} \mathbf{S}_g (q,p) \end{equation} where $D$ is the set of dyadic edges that are contained in the clique representation of the $i^{th}$ hyperedge.
+
+The outcome of this whole process (Section 4) is these two vectors: $\mathbf{p_g}$ and $\mathbf{p_h}$ . The $i^{th}$ values of $\mathbf{p_g}$ and $\mathbf{p_h}$ are the likelihood of collaboration represented by the $i^{th}$ hyperedge occurring in future as outputted by graph and hyperegraph models respectively. These vectors are used to generate the top-$N$ list as detailed in the Section 5. 
+
+\section{Experimental Analysis}
+
+In this section we discuss the experimental setup used to evaluate the performance of the proposed approach. First section describes the dataset, data preprocessing and experimental setup. In the second section, we discuss the various experiments conducted and their analysis.
+
+\subsection{Dataset and Experimental Setup}
+
+We have evaluated the performance of the proposed approach using the popular DBLP dataset \cite{dblp07} containing publications from years 1930-2011. For the experiments the dataset is divided into training and test periods ($splits$) as shown in the Table 1 and Table 2. As shown in Table 1 the $splits$ are designed with constant training period but variable testing periods. Table 2 contains $splits$ with variable training periods and fixed length testing periods. Table 3 provides the statistics of the training and test set. It provides the total sum of edge counts across all the splits in two different ranges of splits: Split A.1 to A.5 and Split B.1 to B.5 as mentioned. However, only the No. of training and No. of old edges are useful statistics about the data for the proposed experiments.
+
+%%As we have mentioned above also is that we take small chunks ($splits$) of years to perform experiments and then take average over all these experiments. The reason for this is two fold. One is that, as is also observed during the experiments and in \cite{kolda11}, is that only recent past collaborations are relevant for future predictions. Another reason is that running experiments over larger training periods has scalability issues. Thirdly, as shown in ~\ref{fig:distribution}, the distribution of number of papers across collaborations of various sizes for different interval of five year range. We observe that the distribution (~\ref{fig:distribution}) across the different intervals follow a similar pattern. Therefore, rather than taking a huge training set spanning a large number of years we take several small training-test splits and average out the results to gain confidence in our analysis. 
+
+\begin{figure*}
+        \centering
+        \includegraphics[width=1.0\linewidth]{tables.pdf}
+        \label{fig:TABLES}
+\vspace{-1.7em}
+\end{figure*}
+
+The distribution Figure~\ref{fig:distribution} is a \textit{log-log} plot showing the distribution of publication counts of various collaboration sizes for different 5 year time periods of DBLP dataset. We observe that the distribution (Figure~\ref{fig:distribution}) across the different intervals follow a similar pattern. This shows that $splits$ that were designed are equivalent as far as conducting experiments is concerned and no bias is involved.
+
+As a preprocessing step, all the single author papers were removed since they do not capture relationships between authors.
+
+For the CP Decomposition (CP-ALS) (that is required for Algorithm 1) Tensor Toolbox \cite{kolda07} is used. To find the parameter $K$ for the CP-ALS algorithm we use the ensemble method approach proposed by Dunlavy et al \cite{kolda11} with $K=\{20,40,...200\}$. Also the parameter $T_{buf}=3$ years is taken \cite{kolda11}. We have used the term graph and dyadic graph interchangeably. 
+
+\begin{figure}
+        \centering
+        \subfloat{\includegraphics[width=0.245\textwidth]{fscore_main_100.pdf}}\subfloat{\includegraphics[width=0.245\textwidth]{fscore_main_1000.pdf}}      
+        \caption{Experiment A: (a) AvgF-Score@100 (b) AvgF-Score@1000}
+        \label{fig:EXPA}
+\vspace{-1.7em}
+\end{figure}
+
+\begin{figure}
+        \centering
+        \subfloat{\includegraphics[width=0.245\textwidth]{fscore_100_var_train.pdf}}\subfloat{\includegraphics[width=0.245\textwidth]{fscore_1000_var_train.pdf}}      
+        \caption{Experiment B (Variable Training Size): (a) AvgF-Score@100 (b) AvgF-Score@1000}
+        \label{fig:EXPC}
+\vspace{-1.6em}
+\end{figure}
+
+\subsection{Evaluation} 
+
+In this section four experiments are described that evaluate our proposed approach and provide comparative analysis between dyadic and hypergraphs models. Each of the experiment below is conducted using some of the $splits$. The training period of each $split$ is used to train the dyadic Graph or Hypergraph models using Algorithm 1. The algorithm is run for both graph and hypergraph case to return the edge ($\mathbf{P_g}$) and hyperedge probability ($\mathbf{P_h}$) vectors. These probability vector contains likelihood values for collaborations of different sizes. Each vector is sorted in descending order and the list of top-$N$ elements for each size is extracted. Out of these top-$N$ elements the performance for each size collaboration over test set (old test edges in Table 3) is compared using the following metrics: \\
+
+\begin{equation}
+\text{Precision@N (Size-$h$)} = \frac{\substack{\text{\# of size 'h' collaborations} \\  \text{correctly predicted} \\ \text{from size 'h' top-$N$ list}}}{N}\\
+\end{equation}
+
+%\begin{equation}
+%\text{Recall@N (Size-$h$)} = \frac{\substack{\text{\# of size 'h' collaborations} \\  \text{correctly predicted} \\ \text{from size 'h' top-$N$ list}}}			%{\substack{{\text{\# of actual size 'h'} \\ \text{collaborations}}}}\\
+%\end{equation}
+
+\begin{equation}
+\text{Recall@N (Size-$h$)} = \frac{\substack{\text{\# of size 'h' collaborations}\\  \text{correctly predicted} \\ \text{from size 'h' top-$N$ list}}}{\substack{\text{\# of actual size 'h'}\\ \text{collaborations}}}\\
+\end{equation}
+
+
+\begin{equation}
+\text{AvgPrecision@N (Size-$h$)} = \frac{\substack{\text{Sum of Precision@N (Size-$h$)} \\  \text{for all splits}}}
+					{\substack{{\text{Total \# of splits}}}}\\
+\end{equation}
+
+\begin{equation}
+\text{AvgRecall@N (Size-$h$)} = \frac{\substack{\text{Sum of Recall@N (Size-$h$)} \\  \text{for all splits}}}
+					{\substack{{\text{Total \# of splits}}}}\\
+\end{equation}
+
+\begin{equation}
+\text{AvgF-Score@N (Size-$h$)} = \frac{\substack{\text{2 * AvgPrecision@N (Size-$h$)} \\ \text{* AvgRecall@N (Size-$h$)} }}  
+					{\substack{\text{AvgPrecision@N (Size-$h$)} \\ \text{+ AvgRecall@N (Size-$h$)} }}\\
+\end{equation}
+
+This study considers collaborations of size = $\{2,3,4,5,6,7\}$ as we are interested only in higher order collaborations (size=2 is used in the analysis as the trivial dyadic case). AverageF-Score@N and AverageF-Score@N are used in the experiments only for collaborations of size = $\{3,4,5\}$ across all the $splits$ (over which the experiment is conducted). Collaboration of size = $\{6,7\}$ the number of predictions are quiet less as compared to size = $\{3,4,5\}$ case. Therefore, for these cases all the predictions (rather than top-$N$) are used using the following metrics:  
+
+\begin{equation}
+\text{Precision (Size-$h$)} = \frac{\substack{\text{\# of size 'h' collaborations} \\  \text{correctly predicted}}}
+					{\substack{\text{Total \# of size 'h'} \\ \text{ predicted}}}\\
+\end{equation}
+
+\begin{equation}
+\text{Recall (Size-$h$)} = \frac{\substack{\text{\# of size 'h' collaborations} \\  \text{correctly predicted}}}
+					{\substack{\text{\# of actual size 'h'} \\ \text{collaborations}}}\\
+\end{equation}
+
+\begin{equation}
+\text{AvgPrecision (Size-$h$)} = \frac{\substack{\text{Sum of Precision (Size-$h$)} \\  \text{for all splits}}}
+					{\substack{{\text{Total \# of splits}}}}\\
+\end{equation}
+
+\begin{equation}
+\text{AvgRecall (Size-$h$)} = \frac{\substack{\text{Sum of Recall (Size-$h$)} \\  \text{for all splits}}}
+					{\substack{{\text{Total \# of splits}}}}\\
+\end{equation}
+
+\begin{equation}
+\text{AvgF-Score (Size-$h$)} = \frac{\substack{\text{2 * AvgPrecision (Size-$h$)} \\ \text{* AvgRecall (Size-$h$)} }}  
+					{\substack{\text{AvgPrecision (Size-$h$)} \\ \text{+ AvgRecall (Size-$h$)} }}\\
+\end{equation}
+
+In the expriments below AverageF-Score (Size-$h$) is used as a metric to evaluate the collaboration of size = $\{6,7\}$ across all the $splits$ (over which the experiment is conducted).
+
+\subsubsection{Experiment A}
+
+This experiment is conducted over the splits A.1 to A.5 for a fixed test period of 3 years (i.e. from Table 1 column 2 are the training periods and column 3 are the corresponding testing periods). AvgF-Score@100 and AvgF-Score@1000 are show in the Figure 6 (a),(b) for size $= \{3,4,5\}$. As shown in Figure 6(a),(b) for size$=3$, graphs perform comparably with hypergraphs however for size$=4$ prediction using hypergraphs show approx. 150\% and 40\% increase in F-Score for @100 and @1000 cases respectively. For size$>$5 Figure 6(a) and Figure 6(b) are identical showing the AvgF-Score. For size$>$5 graphs show similar trends as for size$=4$ with performance degrading as size increases. As shown in figure 6(a) the F-Score for hypergraph perform better with an increase ranging from 25\% for size$=5$ to almost 100\% for size$=7$. This indicates that Hypergraphs maintain the higher order group information intact. However, owing to the limited training set for higher order (size$>6$) collaborations hypergraph performance is reduced. 
+
+\subsubsection{Experiment B}
+
+This experiment compares the prediction power of the two models: graph and hypergraphs, when trained over variable size training periods. The time period splits used in this case are B.1 to B.4 (which has fixed test period of 3 years) over training period size from 3 to 5 years as show in the Table 2. For size$=\{3,4,5\}$ AvgF-Score@100/1000 and AveragrF-Score for size$>5$ curves for different training periods are shown in Figure 7(a),(b). As shown in Fig 7(a),(b) the F-Score curves for graph model are always lower than hypergraph curves for all size collaborations. Another interesting thing to note is that green curves of hypergraph are above pink and pink is above maroon for most sizes in both Figure 7(a),(b). Similar case is there for graphs (blue above red and red above grey). Thus, increasing the training period in several cases results in decrease in prediction power for both graphs and hypergraphs. This shows that the information about past can act as a noise and thus, decrease prediction accuracy.
+
+\subsubsection{Experiment C}
+
+\begin{figure}
+        \centering
+        \subfloat{\includegraphics[width=0.245\textwidth]{fscore_100_var_test.pdf}}\subfloat{\includegraphics[width=0.245\textwidth]{fscore_1000_var_test.pdf}}      
+        \caption{Experiment C (Variable Test Size): (a) AvgF-Score@100 (b) AvgF-Score@1000}
+        \label{fig:EXPB}
+\vspace{-1.6em}
+\end{figure}
+
+To get further confidence in the prediction power of hypergraphs we ran experiments with predictions over variable testing periods from three to five years using the splits A.1 to A.4 (Table 1) and fixed training period size$=5$ years. For size = $\{3,4,5\}$ the AvgF-Score@100 and AvgF-Scorel@1000 curves for different testing periods are shown in Figure 8(a),(b). As shown in Figure 8(a),(b), for size = $\{3,4\}$ the graph model (curves colored blue, red and gray) is comparable to the green, pink and maroon curves (which represent hypergraph). However at higher order collaborations hypergraph outperform graphs (as inferred from the AvgF-Scores for size $>=5$ shown in Figure 8(a),(b)).
+
+%graph provide a good challenge but as size increases hypergraph significantly surpass graphs. Moreover, the precision increases as the testing size increases which means that using collaborations that made publications in recent past we can be certain that there is possibility of the same collaboration occurring even after next 3 years.
+
+%For both the cases, similar to Experiment A, hyperedges are able to predict higher order collaborations better than edges of graph even when the testing periods are varied. The accuracy get worse as the size of collaboration increases which is similar to Experiment A.
+
+%Another interesting observation is visible in the joint prediction bar chart in Figure 12 for both the at least two and at least three size groups. It is clearly visible that green and purple bars are higher than the corresponding blue and red bars. This clearly indicates that for predicting higher order link the training need not start from dyadic (at least 2 author papers) links. In fact having higher order links tend to help predict higher other higher order links in a much better manner. 
+%
+
+\subsubsection{Experiment D}
+
+\begin{figure}
+        \centering
+        \subfloat{\includegraphics[width=0.245\textwidth]{trivial_precision_1000.pdf}}\subfloat{\includegraphics[width=0.245\textwidth]{trivial_recall_1000.pdf}}      
+        \caption{Experiment D (Dyadic Link Prediction): (a) AvgPrecision@1000 (b) AvgRecall@1000}
+        \label{fig:EXPD}
+\vspace{-1.6em}
+\end{figure}
+
+This experiment analyzes the trivial case of predicting dyadic links. This experiment consists of three sub-experiments with the following testing and training combinations: A.1-A.5 with training of size $= 5$ years and test period size$ = 4$ years (Case 1); B.1-B.4 with training period size = 4 years and test period size = 3 years (Case 2); and last, training using B.1-B.4 with training period of 3 years and testing using A.1-A.4 with test period size $= 4$ years (Case 3). These cases evaluate the dyadic link prediction under various combination of test and training periods. Results of this experiment are shown in the Figure 9(a),(b). It is clearly visible that the maroon bars (hypergraph) for different sub-experiments (Case 1 to 3) are always aslightly higher than blue bars (graphs). This shows that the performance of graphs and hypergraphs is comparable. Although, graphs are themselves sufficiently capture the information needed to predict dyadic links, the proposed tensor model for hypergraph is robust even to predict dyadic links.
+
+%In fact using hypergraphs, in some cases, degrades the performance as it tries to capture more general and higher order relations %as a whole. The graphs on the other hand, as we have seen in the previous section built using the decomposition of higher order %groups in to dyadic relations by assuming the groups as a clique.% 
+
+\subsubsection{Discussion}
+
+The above mentioned experiments corroborate about hypergraphs being a better and robust model for higher order collaboration than graphs. Results from these experiments demonstrate higher order collaboration (size$>$4) prediction is very difficult using dyadic graph based approach. Also collaborations of size$>2$ hypergraphs in most cases provide better results with an average increase of approx. 45\% in F-Score for different sizes $\in \{3,4,5,6,7\}$ (Figure 6). In fact our approach is robust for dyadic link prediction as well (Experiment D). Also combined inference from Experiment B and C shows that using the recent (past 3 years) publications we can prediction of a collaboration working together for an extended period of future 5 years. 
+
+%Overall hypergraphs are suffice to capture information what graphs are capturing and in fact performance of graph decreases for higher order groups which is not the case with hypergraphs. It should be noted that in dyadic link prediction problem the search space to predict link between two nodes is ${n \choose 2}$ but in case of higher order links our space shifts to ${n \choose r}$ where $r$ is the size of hyperedge. So the prediction accuracy though low is significant than random prediction accuracy.
+
+%Even though in this paper we are handling the problem of predicting only the recurrent collaborations even their percentage is very low. Thus, the relatively low percentage prediction in the experiments is much above trivial case. Though, the aim of the paper is primarily to prepare a stage for comparative analysis between the graphs and hypergraphs.
+
+%\section{Scalability}
+%
+%A subtle thing to notice is that Experiment A is conducted including split A.5 but only for test period of 3 years. The reason being the scalability of the algorithm as after the year 2000 the amount of training collaborations increase quiet much. There a couple of ways to approach the scalability issue. One way is to explore other more promising and faster decomposition algorithms like \cite{koldaopt11}. The other way is to go for distributed approach like Graphlab \cite{graphlab07} where they have a possible way of distributing the tensor decompositions.
+
+\section{Conclusion and  Future Work}
+
+In this work we have formulated the problem of higher order collaboration prediction. We show that these problems are much harder than the dyadic edge predictions. We make a pioneering attempt to address the \textit{old edge} prediction problem. For this we propose a novel tensor decomposition based approach. We show that tensors are an excellent way to capture temporal hypergraphs since they perform much better in predicting collaborations of size greater than three (in general higher order hyperedges) in comparison to the dyadic graph representation. Moreover, it also turns out that the hyper-incidence tensor model is robust for dyadic edge prediction as well. In this way we also provide a much needed explicit comparison between graphs and hypergraphs. 
+
+In the future we can work on modifying tensor based approach to address the harder problem of \textit{new link} prediction. We can also use the power of tensors to predict exact future patterns (eg: giving a likelihood of publications $n^{th}$ year in future) by using methods similar to \cite{kolda11}. Another interesting direction is to try out modeling $K$-size collaboration as a $K$-ary Tensors model. 
+
+%Given that higher order predictions and linking tensors with hypergraph is a budding area there is a definite need for research.
+
+\section*{Acknowledgment}
+
+The authors would also like to thank Dr. Tamara G. Kolda for her support and also for providing us with the code for Tensor Toolbox \cite{kolda07}. 
+
+\section{Introduction}
+The \textit{proceedings} are the records of a conference.
+ACM seeks to give these conference by-products a uniform,
+high-quality appearance.  To do this, ACM has some rigid
+requirements for the format of the proceedings documents: there
+is a specified format (balanced  double columns), a specified
+set of fonts (Arial or Helvetica and Times Roman) in
+certain specified sizes (for instance, 9 point for body copy),
+a specified live area (18 $\times$ 23.5 cm [7" $\times$ 9.25"]) centered on
+the page, specified size of margins (1.9 cm [0.75"]) top, (2.54 cm [1"]) bottom
+and (1.9 cm [.75"]) left and right; specified column width
+(8.45 cm [3.33"]) and gutter size (.83 cm [.33"]).
+
+The good news is, with only a handful of manual
+settings\footnote{Two of these, the {\texttt{\char'134 numberofauthors}}
+and {\texttt{\char'134 alignauthor}} commands, you have
+already used; another, {\texttt{\char'134 balancecolumns}}, will
+be used in your very last run of \LaTeX\ to ensure
+balanced column heights on the last page.}, the \LaTeX\ document
+class file handles all of this for you.
+
+The remainder of this document is concerned with showing, in
+the context of an ``actual'' document, the \LaTeX\ commands
+specifically available for denoting the structure of a
+proceedings paper, rather than with giving rigorous descriptions
+or explanations of such commands.
+
+\section{The {\secit Body} of The Paper}
+Typically, the body of a paper is organized
+into a hierarchical structure, with numbered or unnumbered
+headings for sections, subsections, sub-subsections, and even
+smaller sections.  The command \texttt{{\char'134}section} that
+precedes this paragraph is part of such a
+hierarchy.\footnote{This is the second footnote.  It
+starts a series of three footnotes that add nothing
+informational, but just give an idea of how footnotes work
+and look. It is a wordy one, just so you see
+how a longish one plays out.} \LaTeX\ handles the numbering
+and placement of these headings for you, when you use
+the appropriate heading commands around the titles
+of the headings.  If you want a sub-subsection or
+smaller part to be unnumbered in your output, simply append an
+asterisk to the command name.  Examples of both
+numbered and unnumbered headings will appear throughout the
+balance of this sample document.
+
+Because the entire article is contained in
+the \textbf{document} environment, you can indicate the
+start of a new paragraph with a blank line in your
+input file; that is why this sentence forms a separate paragraph.
+
+\subsection{Type Changes and {\subsecit Special} Characters}
+We have already seen several typeface changes in this sample.  You
+can indicate italicized words or phrases in your text with
+the command \texttt{{\char'134}textit}; emboldening with the
+command \texttt{{\char'134}textbf}
+and typewriter-style (for instance, for computer code) with
+\texttt{{\char'134}texttt}.  But remember, you do not
+have to indicate typestyle changes when such changes are
+part of the \textit{structural} elements of your
+article; for instance, the heading of this subsection will
+be in a sans serif\footnote{A third footnote, here.
+Let's make this a rather short one to
+see how it looks.} typeface, but that is handled by the
+document class file. Take care with the use
+of\footnote{A fourth, and last, footnote.}
+the curly braces in typeface changes; they mark
+the beginning and end of
+the text that is to be in the different typeface.
+
+You can use whatever symbols, accented characters, or
+non-English characters you need anywhere in your document;
+you can find a complete list of what is
+available in the \textit{\LaTeX\
+User's Guide}\cite{Lamport:LaTeX}.
+
+\subsection{Math Equations}
+You may want to display math equations in three distinct styles:
+inline, numbered or non-numbered display.  Each of
+the three are discussed in the next sections.
+
+\subsubsection{Inline (In-text) Equations}
+A formula that appears in the running text is called an
+inline or in-text formula.  It is produced by the
+\textbf{math} environment, which can be
+invoked with the usual \texttt{{\char'134}begin. . .{\char'134}end}
+construction or with the short form \texttt{\$. . .\$}. You
+can use any of the symbols and structures,
+from $\alpha$ to $\omega$, available in
+\LaTeX\cite{Lamport:LaTeX}; this section will simply show a
+few examples of in-text equations in context. Notice how
+this equation: \begin{math}\lim_{n\rightarrow \infty}x=0\end{math},
+set here in in-line math style, looks slightly different when
+set in display style.  (See next section).
+
+\subsubsection{Display Equations}
+A numbered display equation -- one set off by vertical space
+from the text and centered horizontally -- is produced
+by the \textbf{equation} environment. An unnumbered display
+equation is produced by the \textbf{displaymath} environment.
+
+Again, in either environment, you can use any of the symbols
+and structures available in \LaTeX; this section will just
+give a couple of examples of display equations in context.
+First, consider the equation, shown as an inline equation above:
+\begin{equation}\lim_{n\rightarrow \infty}x=0\end{equation}
+Notice how it is formatted somewhat differently in
+the \textbf{displaymath}
+environment.  Now, we'll enter an unnumbered equation:
+\begin{displaymath}\sum_{i=0}^{\infty} x + 1\end{displaymath}
+and follow it with another numbered equation:
+\begin{equation}\sum_{i=0}^{\infty}x_i=\int_{0}^{\pi+2} f\end{equation}
+just to demonstrate \LaTeX's able handling of numbering.
+
+\subsection{Citations}
+Citations to articles \cite{bowman:reasoning,
+clark:pct, braams:babel, herlihy:methodology},
+conference proceedings \cite{clark:pct} or
+books \cite{salas:calculus, Lamport:LaTeX} listed
+in the Bibliography section of your
+article will occur throughout the text of your article.
+You should use BibTeX to automatically produce this bibliography;
+you simply need to insert one of several citation commands with
+a key of the item cited in the proper location in
+the \texttt{.tex} file \cite{Lamport:LaTeX}.
+The key is a short reference you invent to uniquely
+identify each work; in this sample document, the key is
+the first author's surname and a
+word from the title.  This identifying key is included
+with each item in the \texttt{.bib} file for your article.
+
+The details of the construction of the \texttt{.bib} file
+are beyond the scope of this sample document, but more
+information can be found in the \textit{Author's Guide},
+and exhaustive details in the \textit{\LaTeX\ User's
+Guide}\cite{Lamport:LaTeX}.
+
+This article shows only the plainest form
+of the citation command, using \texttt{{\char'134}cite}.
+This is what is stipulated in the SIGS style specifications.
+No other citation format is endorsed or supported.
+
+\subsection{Tables}
+Because tables cannot be split across pages, the best
+placement for them is typically the top of the page
+nearest their initial cite.  To
+ensure this proper ``floating'' placement of tables, use the
+environment \textbf{table} to enclose the table's contents and
+the table caption.  The contents of the table itself must go
+in the \textbf{tabular} environment, to
+be aligned properly in rows and columns, with the desired
+horizontal and vertical rules.  Again, detailed instructions
+on \textbf{tabular} material
+is found in the \textit{\LaTeX\ User's Guide}.
+
+Immediately following this sentence is the point at which
+Table 1 is included in the input file; compare the
+placement of the table here with the table in the printed
+dvi output of this document.
+
+\begin{table}
+\centering
+\caption{Frequency of Special Characters}
+\begin{tabular}{|c|c|l|} \hline
+Non-English or Math&Frequency&Comments\\ \hline
+\O & 1 in 1,000& For Swedish names\\ \hline
+$\pi$ & 1 in 5& Common in math\\ \hline
+\$ & 4 in 5 & Used in business\\ \hline
+$\Psi^2_1$ & 1 in 40,000& Unexplained usage\\
+\hline\end{tabular}
+\end{table}
+
+To set a wider table, which takes up the whole width of
+the page's live area, use the environment
+\textbf{table*} to enclose the table's contents and
+the table caption.  As with a single-column table, this wide
+table will ``float" to a location deemed more desirable.
+Immediately following this sentence is the point at which
+Table 2 is included in the input file; again, it is
+instructive to compare the placement of the
+table here with the table in the printed dvi
+output of this document.
+
+
+\begin{table*}
+\centering
+\caption{Some Typical Commands}
+\begin{tabular}{|c|c|l|} \hline
+Command&A Number&Comments\\ \hline
+\texttt{{\char'134}alignauthor} & 100& Author alignment\\ \hline
+\texttt{{\char'134}numberofauthors}& 200& Author enumeration\\ \hline
+\texttt{{\char'134}table}& 300 & For tables\\ \hline
+\texttt{{\char'134}table*}& 400& For wider tables\\ \hline\end{tabular}
+\end{table*}
+% end the environment with {table*}, NOTE not {table}!
+
+\subsection{Figures}
+Like tables, figures cannot be split across pages; the
+best placement for them
+is typically the top or the bottom of the page nearest
+their initial cite.  To ensure this proper ``floating'' placement
+of figures, use the environment
+\textbf{figure} to enclose the figure and its caption.
+
+This sample document contains examples of \textbf{.eps}
+and \textbf{.ps} files to be displayable with \LaTeX.  More
+details on each of these is found in the \textit{Author's Guide}.
+
+\begin{figure}
+\centering
+\epsfig{file=fly.eps}
+\caption{A sample black and white graphic (.eps format).}
+\end{figure}
+
+\begin{figure}
+\centering
+\epsfig{file=fly.eps, height=1in, width=1in}
+\caption{A sample black and white graphic (.eps format)
+that has been resized with the \texttt{epsfig} command.}
+\end{figure}
+
+
+As was the case with tables, you may want a figure
+that spans two columns.  To do this, and still to
+ensure proper ``floating'' placement of tables, use the environment
+\textbf{figure*} to enclose the figure and its caption.
+and don't forget to end the environment with
+{figure*}, not {figure}!
+
+\begin{figure*}
+\centering
+\epsfig{file=flies.eps}
+\caption{A sample black and white graphic (.eps format)
+that needs to span two columns of text.}
+\end{figure*}
+
+Note that either {\textbf{.ps}} or {\textbf{.eps}} formats are
+used; use
+the \texttt{{\char'134}epsfig} or \texttt{{\char'134}psfig}
+commands as appropriate for the different file types.
+
+\begin{figure}
+\centering
+\psfig{file=rosette.ps, height=1in, width=1in,}
+\caption{A sample black and white graphic (.ps format) that has
+been resized with the \texttt{psfig} command.}
+\vskip -6pt
+\end{figure}
+
+\subsection{Theorem-like Constructs}
+Other common constructs that may occur in your article are
+the forms for logical constructs like theorems, axioms,
+corollaries and proofs.  There are
+two forms, one produced by the
+command \texttt{{\char'134}newtheorem} and the
+other by the command \texttt{{\char'134}newdef}; perhaps
+the clearest and easiest way to distinguish them is
+to compare the two in the output of this sample document:
+
+This uses the \textbf{theorem} environment, created by
+the\linebreak\texttt{{\char'134}newtheorem} command:
+\newtheorem{theorem}{Theorem}
+\begin{theorem}
+Let $f$ be continuous on $[a,b]$.  If $G$ is
+an antiderivative for $f$ on $[a,b]$, then
+\begin{displaymath}\int^b_af(t)dt = G(b) - G(a).\end{displaymath}
+\end{theorem}
+
+The other uses the \textbf{definition} environment, created
+by the \texttt{{\char'134}newdef} command:
+\newdef{definition}{Definition}
+\begin{definition}
+If $z$ is irrational, then by $e^z$ we mean the
+unique number which has
+logarithm $z$: \begin{displaymath}{\log e^z = z}\end{displaymath}
+\end{definition}
+
+Two lists of constructs that use one of these
+forms is given in the
+\textit{Author's  Guidelines}.
+ 
+There is one other similar construct environment, which is
+already set up
+for you; i.e. you must \textit{not} use
+a \texttt{{\char'134}newdef} command to
+create it: the \textbf{proof} environment.  Here
+is a example of its use:
+\begin{proof}
+Suppose on the contrary there exists a real number $L$ such that
+\begin{displaymath}
+\lim_{x\rightarrow\infty} \frac{f(x)}{g(x)} = L.
+\end{displaymath}
+Then
+\begin{displaymath}
+l=\lim_{x\rightarrow c} f(x)
+= \lim_{x\rightarrow c}
+\left[ g{x} \cdot \frac{f(x)}{g(x)} \right ]
+= \lim_{x\rightarrow c} g(x) \cdot \lim_{x\rightarrow c}
+\frac{f(x)}{g(x)} = 0\cdot L = 0,
+\end{displaymath}
+which contradicts our assumption that $l\neq 0$.
+\end{proof}
+
+Complete rules about using these environments and using the
+two different creation commands are in the
+\textit{Author's Guide}; please consult it for more
+detailed instructions.  If you need to use another construct,
+not listed therein, which you want to have the same
+formatting as the Theorem
+or the Definition\cite{salas:calculus} shown above,
+use the \texttt{{\char'134}newtheorem} or the
+\texttt{{\char'134}newdef} command,
+respectively, to create it.
+
+\subsection*{A {\secit Caveat} for the \TeX\ Expert}
+Because you have just been given permission to
+use the \texttt{{\char'134}newdef} command to create a
+new form, you might think you can
+use \TeX's \texttt{{\char'134}def} to create a
+new command: \textit{Please refrain from doing this!}
+Remember that your \LaTeX\ source code is primarily intended
+to create camera-ready copy, but may be converted
+to other forms -- e.g. HTML. If you inadvertently omit
+some or all of the \texttt{{\char'134}def}s recompilation will
+be, to say the least, problematic.
+
+\section{Conclusions}
+This paragraph will end the body of this sample document.
+Remember that you might still have Acknowledgments or
+Appendices; brief samples of these
+follow.  There is still the Bibliography to deal with; and
+we will make a disclaimer about that here: with the exception
+of the reference to the \LaTeX\ book, the citations in
+this paper are to articles which have nothing to
+do with the present subject and are used as
+examples only.
+%\end{document}  % This is where a 'short' article might terminate
+
+%ACKNOWLEDGMENTS are optional
+\section{Acknowledgments}
+This section is optional; it is a location for you
+to acknowledge grants, funding, editing assistance and
+what have you.  In the present case, for example, the
+authors would like to thank Gerald Murray of ACM for
+his help in codifying this \textit{Author's Guide}
+and the \textbf{.cls} and \textbf{.tex} files that it describes.
+
+%
+% The following two commands are all you need in the
+% initial runs of your .tex file to
+% produce the bibliography for the citations in your paper.
+\bibliographystyle{abbrv}
+\bibliography{sdmbib}
+
+%\bibliographystyle{abbrv}
+%\bibliography{sigproc}  % sigproc.bib is the name of the Bibliography in this case
+% You must have a proper ".bib" file
+%  and remember to run:
+% latex bibtex latex latex
+% to resolve all references
+%
+% ACM needs 'a single self-contained file'!
+%
+%APPENDICES are optional
+%\balancecolumns
+\appendix
+%Appendix A
+\section{Headings in Appendices}
+The rules about hierarchical headings discussed above for
+the body of the article are different in the appendices.
+In the \textbf{appendix} environment, the command
+\textbf{section} is used to
+indicate the start of each Appendix, with alphabetic order
+designation (i.e. the first is A, the second B, etc.) and
+a title (if you include one).  So, if you need
+hierarchical structure
+\textit{within} an Appendix, start with \textbf{subsection} as the
+highest level. Here is an outline of the body of this
+document in Appendix-appropriate form:
+\subsection{Introduction}
+\subsection{The Body of the Paper}
+\subsubsection{Type Changes and  Special Characters}
+\subsubsection{Math Equations}
+\paragraph{Inline (In-text) Equations}
+\paragraph{Display Equations}
+\subsubsection{Citations}
+\subsubsection{Tables}
+\subsubsection{Figures}
+\subsubsection{Theorem-like Constructs}
+\subsubsection*{A Caveat for the \TeX\ Expert}
+\subsection{Conclusions}
+\subsection{Acknowledgments}
+\subsection{Additional Authors}
+This section is inserted by \LaTeX; you do not insert it.
+You just add the names and information in the
+\texttt{{\char'134}additionalauthors} command at the start
+of the document.
+\subsection{References}
+Generated by bibtex from your ~.bib file.  Run latex,
+then bibtex, then latex twice (to resolve references)
+to create the ~.bbl file.  Insert that ~.bbl file into
+the .tex source file and comment out
+the command \texttt{{\char'134}thebibliography}.
+% This next section command marks the start of
+% Appendix B, and does not continue the present hierarchy
+\section{More Help for the Hardy}
+The sig-alternate.cls file itself is chock-full of succinct
+and helpful comments.  If you consider yourself a moderately
+experienced to expert user of \LaTeX, you may find reading
+it useful but please remember not to change it.
+%\balancecolumns % GM June 2007
+% That's all folks!
+\end{document}

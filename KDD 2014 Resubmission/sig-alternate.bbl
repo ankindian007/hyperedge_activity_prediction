@@ -1,0 +1,143 @@
+\begin{thebibliography}{10}
+
+\bibitem{kolda07}
+B.~W. Bader and T.~G. Kolda.
+\newblock Efficient matlab computations with sparse and factored tensors.
+\newblock {\em SIAM Journal on Scientific Computing}, 30(1):205--231, 2007.
+
+\bibitem{barabasi2002evolution}
+A.-L. Barab{\^a}si, H.~Jeong, Z.~N{\'e}da, E.~Ravasz, A.~Schubert, and
+  T.~Vicsek.
+\newblock Evolution of the social network of scientific collaborations.
+\newblock {\em Physica A: Statistical Mechanics and its Applications},
+  311(3):590--614, 2002.
+
+\bibitem{berge1973graphs}
+C.~Berge and E.~Minieka.
+\newblock {\em Graphs and hypergraphs}, volume~7.
+\newblock North-Holland publishing company Amsterdam, 1973.
+
+\bibitem{coleman1988social}
+J.~S. Coleman.
+\newblock Social capital in the creation of human capital.
+\newblock {\em American journal of sociology}, pages S95--S120, 1988.
+
+\bibitem{kolda11}
+D.~M. Dunlavy, T.~G. Kolda, and E.~Acar.
+\newblock Temporal link prediction using matrix and tensor factorizations.
+\newblock {\em ACM Transactions on Knowledge Discovery from Data (TKDD)},
+  5(2):10, 2011.
+
+\bibitem{estrada2005complex}
+E.~Estrada and J.~A. Rodriguez-Velazquez.
+\newblock Complex networks as hypergraphs.
+\newblock {\em arXiv preprint physics/0505137}, 2005.
+
+\bibitem{fagin1983degrees}
+R.~Fagin.
+\newblock Degrees of acyclicity for hypergraphs and relational database
+  schemes.
+\newblock {\em Journal of the ACM (JACM)}, 30(3):514--550, 1983.
+
+\bibitem{faust1997centrality}
+K.~Faust.
+\newblock Centrality in affiliation networks.
+\newblock {\em Social networks}, 19(2):157--191, 1997.
+
+\bibitem{ghoshal2009random}
+G.~Ghoshal, V.~Zlati{\'c}, G.~Caldarelli, and M.~Newman.
+\newblock Random hypergraphs and their applications.
+\newblock {\em Physical Review E}, 79(6):066118, 2009.
+
+\bibitem{golub1970singular}
+G.~H. Golub and C.~Reinsch.
+\newblock Singular value decomposition and least squares solutions.
+\newblock {\em Numerische Mathematik}, 14(5):403--420, 1970.
+
+\bibitem{guimera2005team}
+R.~Guimer{\`a}, B.~Uzzi, J.~Spiro, and L.~A.~N. Amaral.
+\newblock Team assembly mechanisms determine collaboration network structure
+  and team performance.
+\newblock {\em Science}, 308(5722):697--702, 2005.
+
+\bibitem{han1998hypergraph}
+E.-H. Han, G.~Karypis, V.~Kumar, and B.~Mobasher.
+\newblock Hypergraph based clustering in high-dimensional data sets: A summary
+  of results.
+\newblock {\em IEEE Data Eng. Bull.}, 21(1):15--22, 1998.
+
+\bibitem{dhruv2013}
+K.~Kapoor, D.~Sharma, and J.~Srivastava.
+\newblock Weighted node degree centrality for hypergraphs.
+\newblock In {\em Network Science Workshop (NSW), 2013 IEEE 2nd}, pages
+  152--155. IEEE, 2013.
+
+\bibitem{katz1997research}
+J.~S. Katz and B.~R. Martin.
+\newblock What is research collaboration?
+\newblock {\em Research policy}, 26(1):1--18, 1997.
+
+\bibitem{klamt2009hypergraphs}
+S.~Klamt, U.-U. Haus, and F.~Theis.
+\newblock Hypergraphs and cellular networks.
+\newblock {\em PLoS computational biology}, 5(5):e1000385, 2009.
+
+\bibitem{kolda09}
+T.~G. Kolda and B.~W. Bader.
+\newblock Tensor decompositions and applications.
+\newblock {\em SIAM review}, 51(3):455--500, 2009.
+
+\bibitem{newman2001structure}
+M.~E. Newman.
+\newblock The structure of scientific collaboration networks.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  98(2):404--409, 2001.
+
+\bibitem{pearson2012spectral}
+K.~J. Pearson and T.~Zhang.
+\newblock On spectral hypergraph theory of the adjacency tensor.
+\newblock {\em arXiv preprint arXiv:1209.5614}, 2012.
+
+\bibitem{putnam1996bona}
+L.~Putnam and C.~Stohl.
+\newblock Bona fide groups.
+\newblock {\em Communication and group decision making}, pages 147--178, 1996.
+
+\bibitem{dblp07}
+J.~Tang, D.~Zhang, and L.~Yao.
+\newblock Social network extraction of academic researchers.
+\newblock In {\em Data Mining, 2007. ICDM 2007. Seventh IEEE International
+  Conference on}, pages 292--301. IEEE, 2007.
+
+\bibitem{taramasco2010academic}
+C.~Taramasco, J.-P. Cointet, and C.~Roth.
+\newblock Academic team formation as evolving hypergraphs.
+\newblock {\em Scientometrics}, 85(3):721--740, 2010.
+
+\bibitem{tian2009hypergraph}
+Z.~Tian, T.~Hwang, and R.~Kuang.
+\newblock A hypergraph-based learning algorithm for classifying gene expression
+  and arraycgh data with prior knowledge.
+\newblock {\em Bioinformatics}, 25(21):2831--2838, 2009.
+
+\bibitem{Vázquez28122004}
+A.~Vazquez, R.~Dobrin, D.~Sergi, J.-P. Eckmann, Z.~Oltvai, and A.-L.
+  Barab{\'a}si.
+\newblock The topological relationship between the large-scale attributes and
+  local interaction patterns of complex networks.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  101(52):17940--17945, 2004.
+
+\bibitem{xie2013h}
+J.~Xie and A.~Chang.
+\newblock H-eigenvalues of signless laplacian tensor for an even uniform
+  hypergraph.
+\newblock {\em Frontiers of Mathematics in China}, 8(1):107--127, 2013.
+
+\bibitem{Zhou07}
+D.~Zhou, J.~Huang, and B.~Sch{\"o}lkopf.
+\newblock Learning with hypergraphs: Clustering, classification, and embedding.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  1601--1608, 2006.
+
+\end{thebibliography}
