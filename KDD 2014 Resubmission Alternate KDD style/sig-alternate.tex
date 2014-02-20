@@ -167,8 +167,8 @@ Abhishek Chandra\\
 \maketitle
 \begin{abstract}
 
-Need of modeling multi-actor collaborations is increasingly visible in the domain of Social Sciences together with the increase of group (multi-actor) communication data like research collaboration data, emails among groups in an organization, etc. \(Hypergraphs\) are natural structures to effectively capture multi-actor interactions which conventional dyadic graphs fail to capture. This work aims to emperically evaluate the hypothesis that hypergraphs preserve the information that simple (dyadic) graphs are likely to destroy. For demonstrating this we have addressed the problem of predicting collaborations by modeling the collaboration network as hypergraph. 
-The problem of predicting future multi-actor collaboration is therefore treated as hyperedge prediction problem. Given that the higher order edge prediction is an inherently hard problem, in this work we restrict to the task of predicting hyperedges (collaborations) that have already been observed in past. We propose a novel use of hyperincidence temporal tensors and incidence temporal tensors to capture time varying hypergraphs and graphs respectively. Through this common platform of tensor based modeling we quantitatively compare the performance of the hypergraphs based approach with the conventional dyadic graph based approach. Our hypothesis that hypergraphs preserve the information is corroborated by experiments using author collaboration network from the DBLP dataset. Our results demonstrate the strength of hypergraph based approach to predict higher order collaborations (size$>$4) which is very difficult using dyadic graph based approach. Moreover, while predicting collaborations of size$>$2 hypergraphs in most cases provide better results with an average increase of approx. 45\% in F-Score for different sizes $\in \{3,4,5,6,7\}$ (Figure 6). Furthermore, hypergraphs outperform graphs in terms of both storage and time complexity. 
+Need of modeling multi-actor collaborations is increasingly visible in various fields of social sciences together with the increase in availability of group (multi-actor) communication data like research collaboration data, emails among groups in an organization, etc. \(Hypergraphs\) are natural structures to effectively capture multi-actor interactions which conventional dyadic graphs fail to capture. This work aims to emperically evaluate the hypothesis that hypergraphs preserve the information that simple (dyadic) graphs are likely to destroy. For demonstrating this we have addressed the problem of predicting collaborations by modeling the collaboration network as hypergraph. 
+The problem of predicting future multi-actor collaboration is therefore treated as hyperedge prediction problem. Given that the higher order edge prediction is an inherently hard problem, in this work we restrict to the task of predicting hyperedges (collaborations) that have already been observed in past. We propose a novel use of hyperincidence temporal tensors and incidence temporal tensors to capture time varying hypergraphs and graphs respectively. Through this common platform of tensor based modeling we quantitatively compare the performance of the hypergraphs based approach with the conventional dyadic graph based approach. Our hypothesis that hypergraphs are the better representation of group activity is corroborated by experiments using author collaboration network from the DBLP dataset. Our results demonstrate the strength of hypergraph based approach to predict higher order collaborations (size$>$4) which is very difficult using dyadic graph based approach. Moreover, while predicting collaborations of size$>$2 hypergraphs in most cases provide better results with an average improvement of approx. 45\% in F-Score for different group sizes $\in \{3,4,5,6,7\}$ (Figure 6). Furthermore, we find that  hypergraphs outperform graphs both in storage and time complexity. 
 
 \end{abstract}
 
@@ -183,7 +183,7 @@ The problem of predicting future multi-actor collaboration is therefore treated 
 
 \section{Introduction}
 
-The problem of understanding group dynamics is central to the field of Social Sciences. Moreover, the increasing use of internet has led to an exponential increase in amount of online interaction data. As examples, social networking sites like Facebook or Twitter, group communication tools like Skype, Google Hangout, Google Docs, Massive Online multi-player games such as World of Warcraft, etc., are generating social networking data at a massive scale. These social datasets provides minute by minute account of interaction along with the structure and the content of these relationships \cite{Vázquez28122004}. 
+The problem of understanding group dynamics is central to the field of social sciences. Moreover, the increasing use of internet has led to an exponential increase in amount of online interaction data. As examples, social networking sites like Facebook or Twitter, group communication tools like Skype, Google Hangout, Google Docs, Massive Online multi-player games such as World of Warcraft, etc., are generating social networking data at a massive scale. These social datasets provides minute by minute account of interaction along with the structure and the content of these relationships \cite{Vázquez28122004}. 
 
 \begin{figure}[ht]
 \begin{minipage}[b]{0.40\linewidth}
@@ -250,20 +250,21 @@ In this section we describe how higher order collaboration prediction can be map
 
 \subsection{Problem Statement}
 
-In this paper we have used research collaborations where a set of authors ($actors$) collaborate for research. Each of these collaboration results in a $publication$ and each of these publications represents an instance of this collaboration. This means that the same $collaboration$ might result in multiple publications. Each of these $collaboration$ is modeled as a hyperedge in a hypergraph whose each vertex represent an $actor$. The problem of $collaboration$ prediction can then be treated as a problem of predicting a hyperedge. This further splits in two sub-problems: 
+In this paper we have used research collaborations where a set of authors ($actors$) collaborate for research. Each of these collaboration results in a $publication$ and each of these publications represents an instance of this collaboration occurring. This means that the same $collaboration$ might result in multiple publications. Each of these $collaboration$ is then modeled as a hyperedge in a hypergraph whose each vertex represent an $actor$. The problem of $collaboration$ prediction then boils down to the problem of predicting a hyperedge. In this paper we restrict ourselves to he problem of predicting hyperedges ($collaborations$) that have been observed in past. We call this problem as the \textit{old edge} prediction problem. 
 
-\begin{itemize}
-\item Problem of predicting the hyperedges already observed in past i.e. \textit{old edge} prediction.
-\item Problem of predicting the hyperedges that have never been observed in past i.e. \textit{new edge} prediction. 
-\end{itemize} 
+%This further splits in two sub-problems: 
+%\begin{itemize}
+%\item Problem of predicting the hyperedges already observed in past i.e. \textit{old edge} prediction.
+%\item Problem of predicting the hyperedges that have never been observed in past i.e. \textit{new edge} prediction. 
+%\end{itemize} 
 
-To the best of our knowledge these problems have not yet been addressed explicitly. In this paper we are restricting ourselves to the former problem of \textit{old edge} prediction. 
+%To the best of our knowledge these problems have not yet been addressed explicitly. In this paper we are restricting ourselves to the %former problem of \textit{old edge} prediction. 
 
 \subsection{Problem Definition}
 
-Let $V = \{v_1,v_2,....,v_{N_a}\}$ be a set of vertices ($actors$). We represent the hypergraph of $collaboration$s using $HG(V,H)$ where $H$ is the incidence matrix of hypergraph which we term as \textit{hyper-incidence matrix}. This matrix \(H\) represent the set of hyperedges ($collaboration$s) $\{h_1,h_2,....,h_{N_h}\}$ where each hyperedge $h_{k} = \{ v_{1}^{h_k},..., v_{|h_k|}^{h_k} \} \subseteq V$. We divide time into small snapshots (of size $w$ as shown in Figure 4) with $t$ as its index. $N_{c}^{t}$ is the number of $publications$ occurred in snapshot $t$ and there are $N_t$ number of snapshots in past. We denote the $i^{th}$ $publication$ in the $t^{th}$ snapshot by \(c_{i}^{(t)}\) \(\forall i = \{1,2,...,N_{c}^{(t)}\}\). Each of this $publication$ $c_i^{(t)}$ represents some $collaboration$ (hyperedge) $h_k$. A mapping function $\phi$ is defined which returns the $collaboration$ (hyperedge) represented by a given $publication$ such that $\phi(c_i^{(t)})=h_k $ $\forall k=\{1,....,N_h\}$ where $N_h$ are the number of distinct $collaborations$ (hyperedges) in the past. Size of $H$ is therefore, $N_h \times N_a$ and we call $s_k$ as the cardinality (No. of vertices inside $h_k$) of the hyperedge $h_k$ i.e. $s_k = |h_k|$.
+Let $V = \{v_1,v_2,....,v_{N_a}\}$ be a set of vertices ($actors$). We represent the hypergraph of $collaboration$s using $HG(V,H)$ where $H$ is the incidence matrix of hypergraph which we term as \textit{hyper-incidence matrix}. This matrix \(H\) represent the set of hyperedges ($collaborations$) $\{h_1,h_2,....,h_{N_h}\}$ where each hyperedge $h_{k} = \{ v_{1}^{h_k},..., v_{|h_k|}^{h_k} \} \subseteq V$. Size of $H$ is therefore, ($N_h \times N_a$) and we call $s_k$ as the cardinality (No. of vertices inside $h_k$) of the hyperedge $h_k$ i.e. $s_k = |h_k|$. Populating this matrix's entries will be discussed in Section 4. We divide time into small snapshots (of size $w$ as shown in Figure 4) with $t$ as its index. $N_{c}^{t}$ is the number of $publications$ occurred in snapshot $t$ and there are $N_t$ number of snapshots in past. \(H^{(t)}\) therefore represents the hyper-incidence matrix for snapshot $t$. Important thing is that $N_h$ are the number of distinct $collaborations$ (hyperedges) in the past (i.e. all previous snapshots). We denote the $i^{th}$ $publication$ in the $t^{th}$ snapshot by \(c_{i}^{(t)}\),  \(\forall i = \{1,2,...,N_{c}^{(t)}\}\). Each of this $publication$ $c_i^{(t)}$ represents the occurrance of some \textit{collaboration} (hyperedge) $h_k$ within the snapshot $t$. A mapping function $\phi(x)$ (many-to-one) is defined which returns the $collaboration$ (hyperedge) represented by a given $publication$ such that $\phi(c_i^{(t)})=h_k $, $\forall k=\{1,....,N_h\}$. 
 
-The problem of \textit{old link} prediction is now defined as follows: Given a past history of collaborations $C_{hist}=\{c^{(t)}\}_{t=1}^{N_t}$ our goal for the problem of \textit{old link} prediction is to predict the likelihood of future occurrence of each of the hyperedges $h_k$ $\forall k=\{1,....,N_h\}$ (i.e. \textit{collaboration}s already observed in past).
+The problem of \textit{old link} prediction is now defined as follows: Given a past history of collaborations $C_{hist}=\{\mathbf{c}^{(t)}\}_{t=1}^{N_t}$ (where $\mathbf{c}^{(t)} = \{c_i^{(t)}\}_{i=1}^{N_c^{t}}$) our goal for the problem of \textit{old link} prediction is to predict the likelihood of future occurrence of each of the hyperedges $h_k$ $\forall k=\{1,....,N_h\}$ (i.e. \textit{collaboration}s already observed in past).
 
 \begin{figure}[h!]
 \centering
@@ -606,6 +607,35 @@ To get further confidence in the prediction power of hypergraphs we ran experime
 This experiment analyzes the trivial case of predicting dyadic links. This experiment consists of three sub-experiments with the following testing and training combinations: A.1-A.5 with training of size $= 5$ years and test period size$ = 4$ years (Case 1); B.1-B.4 with training period size = 4 years and test period size = 3 years (Case 2); and last, training using B.1-B.4 with training period of 3 years and testing using A.1-A.4 with test period size $= 4$ years (Case 3). These cases evaluate the dyadic link prediction under various combination of test and training periods. Results of this experiment are shown in the Figure 9(a),(b). It is clearly visible that the maroon bars (hypergraph) for different sub-experiments (Case 1 to 3) are always aslightly higher than blue bars (graphs). This shows that the performance of graphs and hypergraphs is comparable. Although, graphs are themselves sufficiently capture the information needed to predict dyadic links, the proposed tensor model for hypergraph is robust even to predict dyadic links.
 
 %In fact using hypergraphs, in some cases, degrades the performance as it tries to capture more general and higher order relations %as a whole. The graphs on the other hand, as we have seen in the previous section built using the decomposition of higher order %groups in to dyadic relations by assuming the groups as a clique.% 
+
+\subsubsection{Complexity Analysis}
+
+In this subsection we analyze the space and time complexity of the tensor based approach. It can be trivially shown that given $N_h$ number of hyperedges the corresponding clique graph shall have $N_g$ number of hyperedges and that $N_h \leq N_g$. The best case for graph (i.e. equality holds) when all the hyperedges are dyadic (i.e. all the collaborations have only 2 actors in them).
+
+
+\begin{table}
+\begin{tabular}{ |l|l|l|l|l| }
+\hline
+Experiment & & Training & Training  & Training \\ 
+&  &(1981-84) &(1985-88) & (1989-92) \\ \hline
+\multirow{2}{*}{Phase: Building} & HG(sec) & 5 & 29 & 103 \\ \cline{2-5}
+
+ Tensor& G(sec)& 100 & 647 & 3471 \\ \hline
+
+\multirow{2}{*}{Phase: Decompos- } & HG(sec) &57 & 100 & 185\\ \cline{2-5}
+
+ -ing Tensor& G(sec)& 110 & 218 & 476\\ \hline
+
+\multirow{2}{*}{Phase: Building} & HG(sec) & 263 & 1526 & 7304 \\ \cline{2-5}
+
+ Ranked List& G(sec)& 1397  & 7862 & 38224\\ \hline
+
+
+\end{tabular}
+\end{table}
+
+
+	
 
 \subsubsection{Discussion}
 
