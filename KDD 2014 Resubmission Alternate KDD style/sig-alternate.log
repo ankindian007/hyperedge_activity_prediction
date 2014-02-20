@@ -1,54 +1,38 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.12.12)  20 FEB 2014 01:53
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.6.23)  20 FEB 2014 14:43
 entering extended mode
-**C:/New*folder*(2)/gitrepo/hyperedge_activity_prediction/KDD*2014*Resubmission
-*Alternate*KDD*style/sig-alternate.tex
+**sig-alternate.tex
 
-("C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmission
- Alternate KDD style/sig-alternate.tex"
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
-vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
-an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
-romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
-sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
-senglishmax, welsh, loaded.
+("C:\Ankit\Research\gitrepo\hyperedge_activity_prediction\KDD 2014 Resubmission
+ Alternate KDD style\sig-alternate.tex"
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
 
-("C:\New folder (2)\gitrepo\hyperedge_activity_prediction\KDD 2014 Resubmission
+("C:\Ankit\Research\gitrepo\hyperedge_activity_prediction\KDD 2014 Resubmission
  Alternate KDD style\sig-alternate.cls"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+(C:\Ankit_miktex\tex\latex\graphics\epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(C:\Ankit_miktex\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(C:\Ankit_miktex\tex\latex\graphics\keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(C:\Ankit_miktex\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(C:\Ankit_miktex\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+(C:\Ankit_miktex\tex\latex\00miktex\graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
-)
+(C:\Ankit_miktex\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
 \Gread@gobject=\count79
 ))
 \Gin@req@height=\dimen102
@@ -57,10 +41,10 @@ Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 \epsfxsize=\dimen104
 \epsfysize=\dimen105
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(C:\Ankit_miktex\tex\latex\amsfonts\amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(C:\Ankit_miktex\tex\latex\amsfonts\amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup4
@@ -68,24 +52,24 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+(C:\Ankit_miktex\tex\latex\ams\math\amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip41
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+(C:\Ankit_miktex\tex\latex\ams\math\amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+(C:\Ankit_miktex\tex\latex\ams\math\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen106
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+(C:\Ankit_miktex\tex\latex\ams\math\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen107
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+(C:\Ankit_miktex\tex\latex\ams\math\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count80
@@ -156,7 +140,7 @@ Questions on the style, SIGS policies, etc. to Adrienne Griscti griscti@acm.org
 \titleboxnoteflag=\count100
 Document Class: sig-alternate 2012/05/23 - V2.5 - based on acmproc.cls V1.3 <No
 v. 30 '99>
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+(C:\Ankit_miktex\tex\latex\base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
@@ -188,86 +172,111 @@ LaTeX Info: Redefining \cite on input line 1211.
 \acmcopyr=\toks33
 \boilerplate=\toks34
 \copyrightetc=\toks35
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+(C:\Ankit_miktex\tex\latex\base\fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+(C:\Ankit_miktex\tex\latex\base\t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 )
 LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
+(C:\Ankit_miktex\tex\latex\ae\t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 )))
+(C:\Ankit_miktex\tex\latex\caption\caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
 
-! LaTeX Error: File `caption.sty' not found.
+(C:\Ankit_miktex\tex\latex\caption\caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen123
+\captionmargin@=\dimen124
+\captionwidth=\dimen125
+\caption@indent=\dimen126
+\caption@parindent=\dimen127
+\caption@hangindent=\dimen128
+\abovecaptionskip=\skip44
+\belowcaptionskip=\skip45
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
 
-Enter file name: 
-
-! LaTeX Error: File `subcaption.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-
-! LaTeX Error: File `subfig.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\euscript.sty"
+Package caption Info: \@makecaption = \long macro:#1#2-> \vskip 10pt \setbox \@
+tempboxa \hbox {\textbf {#1: #2}} \ifdim \wd \@tempboxa >\hsize \textbf {#1: #2
+}\par \else \hbox to\hsize {\hfil \box \@tempboxa \hfil } \fi .
+\c@ContinuedFloat=\count109
+) (C:\Ankit_miktex\tex\latex\caption\subcaption.sty
+Package: subcaption 2012/01/12 v1.1d Sub-captions (AR)
+\c@subfigure=\count110
+\c@subtable=\count111
+)
+(C:\Ankit_miktex\tex\latex\subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count112
+\sf@farskip=\skip46
+\sf@captopadj=\dimen129
+\sf@capskip=\skip47
+\sf@nearskip=\skip48
+\sf@top=\skip49
+\sf@bottom=\skip50
+)
+(C:\Ankit_miktex\tex\latex\amsfonts\euscript.sty
 Package: euscript 2009/06/22 v3.00 Euler Script fonts
 LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
 (Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
 )
+(C:\Ankit_miktex\tex\latex\algorithms\algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 
-! LaTeX Error: File `algorithmic.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-
-! LaTeX Error: File `bbm.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+(C:\Ankit_miktex\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@ALC@unique=\count113
+\c@ALC@line=\count114
+\c@ALC@rem=\count115
+\c@ALC@depth=\count116
+\ALC@tlm=\skip51
+\algorithmicindent=\skip52
+)
+(C:\Ankit_miktex\tex\latex\bbm\bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(C:\Ankit_miktex\tex\latex\tools\tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+(C:\Ankit_miktex\tex\latex\tools\array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen123
-\extrarowheight=\dimen124
+\col@sep=\dimen130
+\extrarowheight=\dimen131
 \NC@list=\toks36
-\extratabsurround=\skip44
-\backup@length=\skip45
+\extratabsurround=\skip53
+\backup@length=\skip54
 )
-\TX@col@width=\dimen125
-\TX@old@table=\dimen126
-\TX@old@col=\dimen127
-\TX@target=\dimen128
-\TX@delta=\dimen129
-\TX@cols=\count109
+\TX@col@width=\dimen132
+\TX@old@table=\dimen133
+\TX@old@col=\dimen134
+\TX@target=\dimen135
+\TX@delta=\dimen136
+\TX@cols=\count117
 \TX@ftn=\toks37
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+(C:\Ankit_miktex\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count110
+\c@float@type=\count118
 \float@exts=\toks38
 \float@box=\box30
 \@float@everytoks=\toks39
 \@floatcapt=\box31
 )
-("C:\New folder (2)\gitrepo\hyperedge_activity_prediction\KDD 2014 Resubmission
+("C:\Ankit\Research\gitrepo\hyperedge_activity_prediction\KDD 2014 Resubmission
  Alternate KDD style\sig-alternate.aux"
 
 LaTeX Warning: Label `overflow' multiply defined.
@@ -294,32 +303,35 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ (C:\Ankit_miktex\tex\context\base\supp-pdf.tex
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
-\scratchdimen=\dimen130
+\scratchcounter=\count119
+\scratchdimen=\dimen137
 \scratchbox=\box32
-\nofMPsegments=\count112
-\nofMParguments=\count113
+\nofMPsegments=\count120
+\nofMParguments=\count121
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count114
-\MPscratchDim=\dimen131
-\MPnumerator=\count115
-\makeMPintoPDFobject=\count116
+\MPscratchCnt=\count122
+\MPscratchDim=\dimen138
+\MPnumerator=\count123
 \everyMPtoPDFconversion=\toks41
 )
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Try loading font information for U+msa on input line 167.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ (C:\Ankit_miktex\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 167.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+(C:\Ankit_miktex\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+lasy on input line 167.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+(C:\Ankit_miktex\tex\latex\base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 Overfull \hbox (1.26794pt too wide) in paragraph at lines 178--179
@@ -339,75 +351,53 @@ n-
 <hypergraph.JPG, id=1, 322.95656pt x 430.60875pt>
 File: hypergraph.JPG Graphic file (type jpg)
  <use hypergraph.JPG>
-Package pdftex.def Info: hypergraph.JPG used on input line 191.
-(pdftex.def)             Requested size: 62.59605pt x 83.45914pt.
-
-Underfull \hbox (badness 2903) in paragraph at lines 192--192
-[]\T1/aer/bx/n/9 Figure 1: Hy-per-
- []
-
 <bipartite.JPG, id=2, 358.33875pt x 371.13657pt>
 File: bipartite.JPG Graphic file (type jpg)
- <use bipartite.JPG>
-Package pdftex.def Info: bipartite.JPG used on input line 198.
-(pdftex.def)             Requested size: 71.13188pt x 73.671pt.
-
-Underfull \hbox (badness 5133) in paragraph at lines 199--199
-[]\T1/aer/bx/n/9 Figure 2: Bi-par-
- []
+ <use bipartite.JPG> [1{C:/Users/ankit.CS.005/AppData/Local/MiKTeX/2.8/pdftex/c
+onfig/pdftex.map}
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 199--199
-\T1/aer/bx/n/9 tite of hy-per-graph
- []
-
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
- <C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmission
- Alternate KDD style/hypergraph.JPG> <C:/New folder (2)/gitrepo/hyperedge_activ
+ <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmission
+ Alternate KDD style/hypergraph.JPG> <C:/Ankit/Research/gitrepo/hyperedge_activ
 ity_prediction/KDD 2014 Resubmission Alternate KDD style/bipartite.JPG>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (6.82327pt too wide) in paragraph at lines 220--221
+Overfull \hbox (6.82327pt too wide) in paragraph at lines 222--223
 \T1/aer/m/n/9 ap-proach to pre-dict higher or-der col-lab-o-ra-tions (size$\OML
 /cmm/m/it/9 >$\T1/aer/m/n/9 4) which
  []
 
 
-Overfull \hbox (5.21666pt too wide) in paragraph at lines 245--245
+Overfull \hbox (5.21666pt too wide) in paragraph at lines 247--247
 []\secfnt HYPEREDGE PRE-DIC-TION PROB-LEMS
  []
 
-[2] <intuition.JPG, id=19, 692.5875pt x 547.2947pt>
+[2]
+Overfull \hbox (1.3349pt too wide) in paragraph at lines 267--268
+\T1/aer/m/n/9 lows: Given a past his-tory of col-lab-o-ra-tions $\OML/cmm/m/it/
+9 C[] \OT1/cmr/m/n/9 = \OMS/cmsy/m/n/9 f\OT1/cmr/bx/n/9 c[]\OMS/cmsy/m/n/9 g[]$
+
+ []
+
+<intuition.JPG, id=19, 692.5875pt x 547.2947pt>
 File: intuition.JPG Graphic file (type jpg)
  <use intuition.JPG>
-Package pdftex.def Info: intuition.JPG used on input line 268.
-(pdftex.def)             Requested size: 170.71652pt x 134.90259pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (1.79643pt too wide) in paragraph at lines 282--283
+Overfull \hbox (1.79643pt too wide) in paragraph at lines 285--286
 \T1/aer/m/n/9 of dyadic links, P(A-B-C) = P(A-B)xP(B-C)xP(C-A)=
  []
 
 <time_snap.jpg, id=20, 541.27219pt x 420.82219pt>
 File: time_snap.jpg Graphic file (type jpg)
  <use time_snap.jpg>
-Package pdftex.def Info: time_snap.jpg used on input line 287.
-(pdftex.def)             Requested size: 170.71652pt x 132.72664pt.
- [3 <C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmiss
-ion Alternate KDD style/intuition.JPG> <C:/New folder (2)/gitrepo/hyperedge_act
-ivity_prediction/KDD 2014 Resubmission Alternate KDD style/time_snap.jpg>]
-LaTeX Font Info:    Try loading font information for U+eus on input line 302.
+LaTeX Font Info:    Try loading font information for U+eus on input line 305.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\ueus.fd"
+(C:\Ankit_miktex\tex\latex\amsfonts\ueus.fd
 File: ueus.fd 2009/06/22 v3.00 Euler Script
-)
-Overfull \hbox (2.52522pt too wide) in paragraph at lines 304--305
+) [3 <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmis
+sion Alternate KDD style/intuition.JPG> <C:/Ankit/Research/gitrepo/hyperedge_ac
+tivity_prediction/KDD 2014 Resubmission Alternate KDD style/time_snap.jpg>]
+Overfull \hbox (2.52522pt too wide) in paragraph at lines 307--308
 []\T1/aer/m/n/9 Similar to hy-per-graph we rep-re-sent graph as $\OML/cmm/m/it/
 9 G\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 V; E\OT1/cmr/m/n/9 )$ \T1/aer/m/n/9 where
  []
@@ -419,179 +409,45 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.306 \begin{algorithm}
+l.309 \begin{algorithm}
                         % enter the algorithm environment
 ? 
 
-! LaTeX Error: No counter 'copyrightbox' defined.
+! Package caption Error: No float type 'copyrightbox' defined.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.307 \caption
-              {PREDICT-COLLAB($C_{hist}$, $isHypergraph$)} % give the algori...
+l.310 \caption{
+               PREDICT-COLLAB($C_{hist}$, $isHypergraph$)} % give the algori...
 
 ? 
 
-! LaTeX Error: Environment algorithmic undefined.
+! Package caption Error: No float type 'copyrightbox' defined.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.309 \begin{algorithmic}
-                         [1] % enter the algorithmic environment
-? 
-! Undefined control sequence.
-l.311 \STATE
-             $\mathscr{Z}_{h}$ tensor (size \(N_{h}\times N_{a}\times N_{t}\...
-
-? 
-! Undefined control sequence.
-l.313 \STATE
-             $\mathscr{Z}_{g}$ tensor (size \(N_{g}\times N_{a}\times N_{t}\...
-
-? 
-! Undefined control sequence.
-l.315 \IF
-         {$isHypergraph$}
-? 
-! Undefined control sequence.
-l.316 \FOR
-          {$c^{(t)} \in C_{hist}$}
-? 
-! Undefined control sequence.
-l.317 \FOR
-          {$c_i^{(t)} \in c^{(t)}$}%\in \{1,2,...,N_{c}^{(t)}\}$}
-? 
-! Undefined control sequence.
-l.318 \STATE
-             Find $k$ s.t. $\phi(c_i)==h_k$ %hyperedge $h_k$ represents the ...
-
-? 
-! Undefined control sequence.
-l.319 \FOR
-          {$j$ s.t. $v_j \in \{v_{1}^{h_k},..., v_{|h_k|}^{h_k}\}=h_k $}
-? 
-! Undefined control sequence.
-l.320 \STATE
-             $\mathscr{Z}_{h}(k,j,t) = \mathscr{Z}_{h}(k,j,t) + \frac{1}{s_k}$
-? 
-! Undefined control sequence.
-l.321 \ENDFOR
-             
-? 
-! Undefined control sequence.
-l.322 \ENDFOR
-             
-? 
-! Undefined control sequence.
-l.323 \ENDFOR
-             
-? 
-! Undefined control sequence.
-l.325 \STATE
-             $\mathbf{S}_h$ = BUILD-SIMILARITY-MATRIX ($\mathscr{Z}_{h}$, $N...
-
-? 
-! Undefined control sequence.
-<recently read> \RETURN 
-                        
-l.326 \RETURN
-             { \textbf{return} HYPERGRAPH-PROB-VECTOR ($\mathbf{S}_h$, $N_h,...
-
-? 
-! Undefined control sequence.
-l.328 \ELSE
-           
-? 
-! Undefined control sequence.
-l.329 \FOR
-          {$c^{(t)} \in C_{hist}$}
-? 
-! Undefined control sequence.
-l.330 \FOR
-          {$c_i^{(t)} \in c^{(t)}$}%\in \{1,2,...,N_{c}^{(t)}\}$}
-? 
-! Undefined control sequence.
-l.331 \STATE
-             Find $k$ s.t. $\phi(c_i)==h_k$ %hyperedge $h_k$ represents the ...
-
-? 
-! Undefined control sequence.
-l.332 \STATE
-             $s_k$ is the cardinality of hyperedge $h_k$.
-? 
-! Undefined control sequence.
-l.333 \FOR
-          {Each of the ${s_{k} \choose 2}$ dyadic links, $d_p$ of the hypere...
+l.310 ...EDICT-COLLAB($C_{hist}$, $isHypergraph$)}
+                                                   % give the algorithm a ca...
 
 ? 
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 333.
+(amsmath)                 on input line 336.
 
-! Undefined control sequence.
-l.334 \STATE
-             Find $k'$ s.t. dyadic edge $d_p$ represents the same subset as ...
 
-? 
-! Undefined control sequence.
-l.335 \FOR
-          {$j$ s.t. $v_j \in \{v_{1}^{d_p},v_{2}^{d_p}\}=d_p $}
-? 
-! Undefined control sequence.
-l.336 \STATE
-             $\mathscr{Z}_{g}(k',j,t) = \mathscr{Z}_{g}(k',j,t) + \frac{1}{s...
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-? 
-! Undefined control sequence.
-l.337 \ENDFOR
-             
-? 
-! Undefined control sequence.
-l.338 \ENDFOR
-             
-? 
-! Undefined control sequence.
-l.339 \ENDFOR
-             
-? 
-! Undefined control sequence.
-l.340 \ENDFOR
-             
-? 
-! Undefined control sequence.
-l.342 \STATE
-             {$\mathbf{S}_g$ = BUILD-SIMILARITY-MATRIX ($\mathscr{Z}_{g}$, $...
 
-? 
-! Undefined control sequence.
-<recently read> \RETURN 
-                        
-l.343 \RETURN
-             { \textbf{return} GRAPH-PROB-VECTOR ($\mathbf{S}_g$, $N_g, N_a$)}
-? 
-! Undefined control sequence.
-l.344 \ENDIF
-            
-? 
-! Undefined control sequence.
-l.345 \RETURN
-             
-? 
+Overfull \hbox (12.78328pt too wide) in paragraph at lines 346--347
+[] []\T1/aer/bx/n/9 return   re-turn \T1/aer/m/n/9 GRAPH-PROB-VECTOR ($\OT1/cmr
+/bx/n/9 S[]$\T1/aer/m/n/9 , $\OML/cmm/m/it/9 N[]; N[]$\T1/aer/m/n/9 ) 
+ []
 
-! LaTeX Error: \begin{document} ended by \end{algorithmic}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.346 \end{algorithmic}
-                       
-? 
 
 ! LaTeX Error: \begin{document} ended by \end{algorithm}.
 
@@ -599,7 +455,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.347 \end{algorithm}
+l.350 \end{algorithm}
                      
 ? 
 
@@ -609,70 +465,30 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.350 \begin{algorithm}
+l.353 \begin{algorithm}
                         % enter the algorithm environment
 ? 
 
-! LaTeX Error: No counter 'copyrightbox' defined.
+! Package caption Error: No float type 'copyrightbox' defined.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.351 \caption
-              {BUILD-SIMILARITY-MATRIX ($\mathscr{Z}$, $N_a, N_b$) } % give ...
+l.354 \caption{
+               BUILD-SIMILARITY-MATRIX ($\mathscr{Z}$, $N_a, N_b$) } % give ...
 
 ? 
 
-! LaTeX Error: Environment algorithmic undefined.
+! Package caption Error: No float type 'copyrightbox' defined.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.353 \begin{algorithmic}
-                         [1] % enter the algorithmic environment
-? 
-! Undefined control sequence.
-l.355 \STATE
-             $\mathbf{S}$ similarity matrix of size $N_a \times N_b$ initial...
+l.354 ...RITY-MATRIX ($\mathscr{Z}$, $N_a, N_b$) }
+                                                   % give the algorithm a ca...
 
-? 
-! Undefined control sequence.
-l.356 \STATE
-             $K$ is the number of components.
-? 
-! Undefined control sequence.
-l.357 \STATE
-             $[\mathbf{\lambda}; \mathbf{A},\mathbf{B},\mathbf{C}]$ = CP-ALS...
-
-? 
-! Undefined control sequence.
-l.359 \FOR
-          {$k \in \{1,2,...,K\}$}
-? 
-! Undefined control sequence.
-l.360 \STATE
-             $\mathbf{S}$ = $\mathbf{S} + \lambda_k \gamma_k \mathbf{a_k} \m...
-
-? 
-! Undefined control sequence.
-l.361 \ENDFOR
-             
-? 
-! Undefined control sequence.
-l.363 \RETURN
-             { \textbf{return} $\mathbf{S}$}
-? 
-
-! LaTeX Error: \begin{document} ended by \end{algorithmic}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.365 \end{algorithmic}
-                       
 ? 
 
 ! LaTeX Error: \begin{document} ended by \end{algorithm}.
@@ -681,7 +497,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.366 \end{algorithm}
+l.369 \end{algorithm}
                      
 ? 
 
@@ -691,68 +507,30 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.368 \begin{algorithm}
+l.371 \begin{algorithm}
                         % enter the algorithm environment
 ? 
 
-! LaTeX Error: No counter 'copyrightbox' defined.
+! Package caption Error: No float type 'copyrightbox' defined.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.369 \caption
-              {HYPERGRAPH-PROB-VECTOR ($\mathbf{S}_h$, $N_h, N_a$) } % give ...
+l.372 \caption{
+               HYPERGRAPH-PROB-VECTOR ($\mathbf{S}_h$, $N_h, N_a$) } % give ...
 
 ? 
 
-! LaTeX Error: Environment algorithmic undefined.
+! Package caption Error: No float type 'copyrightbox' defined.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.371 \begin{algorithmic}
-                         [1] % enter the algorithmic environment
-? 
-! Undefined control sequence.
-l.373 \STATE
-             $\mathbf{p_h}$ is the probability vector for hyperedge likeliho...
+l.372 ...ROB-VECTOR ($\mathbf{S}_h$, $N_h, N_a$) }
+                                                   % give the algorithm a ca...
 
-? 
-! Undefined control sequence.
-l.375 \FOR
-          {$i \in \{1,2,...,N_h\}$}
-? 
-! Undefined control sequence.
-l.377 \FOR
-          {$p$  s.t. $v_p \in h_i$}
-? 
-! Undefined control sequence.
-l.378 \STATE
-             $\mathbf{p_h}(i)$ = $\mathbf{p_h}(i) \ast \mathbf{S}_h (i,p)$
-? 
-! Undefined control sequence.
-l.379 \ENDFOR
-             
-? 
-! Undefined control sequence.
-l.380 \ENDFOR
-             
-? 
-! Undefined control sequence.
-l.382 \RETURN
-             { \textbf{return} $\mathbf{p_h}$}
-? 
-
-! LaTeX Error: \begin{document} ended by \end{algorithmic}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.384 \end{algorithmic}
-                       
 ? 
 
 ! LaTeX Error: \begin{document} ended by \end{algorithm}.
@@ -761,90 +539,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.385 \end{algorithm}
+l.388 \end{algorithm}
                      
 ? 
-[4
-! Undefined control sequence.
-<write> \@writefile{\ext@copyrightbox 
-                                      }{\protect \contentsline {copyrightbox...
-l.398 ...on{Decomposing the tensors (Algorithm 2)}
-                                                  
-? 
-! Undefined control sequence.
-<write> ...\protect \numberline {\thecopyrightbox 
-                                                  }{\ignorespaces PREDICT-CO...
-l.398 ...on{Decomposing the tensors (Algorithm 2)}
-                                                  
-? 
-! Undefined control sequence.
-<write> \newlabel{alg2}{{\p@copyrightbox 
-                                         \thecopyrightbox }{\thepage }}
-l.398 ...on{Decomposing the tensors (Algorithm 2)}
-                                                  
-? 
-! Undefined control sequence.
-<write> ...lg2}{{\p@copyrightbox \thecopyrightbox 
-                                                  }{\thepage }}
-l.398 ...on{Decomposing the tensors (Algorithm 2)}
-                                                  
-? 
-! Undefined control sequence.
-<write> \@writefile{\ext@copyrightbox 
-                                      }{\protect \contentsline {copyrightbox...
-l.398 ...on{Decomposing the tensors (Algorithm 2)}
-                                                  
-? 
-! Undefined control sequence.
-<write> ...\protect \numberline {\thecopyrightbox 
-                                                  }{\ignorespaces BUILD-SIMI...
-l.398 ...on{Decomposing the tensors (Algorithm 2)}
-                                                  
-? 
-! Undefined control sequence.
-<write> \newlabel{alg2}{{\p@copyrightbox 
-                                         \thecopyrightbox }{\thepage }}
-l.398 ...on{Decomposing the tensors (Algorithm 2)}
-                                                  
-? 
-! Undefined control sequence.
-<write> ...lg2}{{\p@copyrightbox \thecopyrightbox 
-                                                  }{\thepage }}
-l.398 ...on{Decomposing the tensors (Algorithm 2)}
-                                                  
-? 
-! Undefined control sequence.
-<write> \@writefile{\ext@copyrightbox 
-                                      }{\protect \contentsline {copyrightbox...
-l.398 ...on{Decomposing the tensors (Algorithm 2)}
-                                                  
-? 
-! Undefined control sequence.
-<write> ...\protect \numberline {\thecopyrightbox 
-                                                  }{\ignorespaces HYPERGRAPH...
-l.398 ...on{Decomposing the tensors (Algorithm 2)}
-                                                  
-? 
-! Undefined control sequence.
-<write> \newlabel{alg2}{{\p@copyrightbox 
-                                         \thecopyrightbox }{\thepage }}
-l.398 ...on{Decomposing the tensors (Algorithm 2)}
-                                                  
-? 
-! Undefined control sequence.
-<write> ...lg2}{{\p@copyrightbox \thecopyrightbox 
-                                                  }{\thepage }}
-l.398 ...on{Decomposing the tensors (Algorithm 2)}
-                                                  
-? 
-]
-Overfull \hbox (3.9581pt too wide) in paragraph at lines 400--401
+[4]
+Overfull \hbox (3.9581pt too wide) in paragraph at lines 403--404
 []\T1/aer/m/n/9 Next step in the pro-cess is to de-com-pose the ten-sors (loade
 d
  []
 
 
-Overfull \hbox (7.53735pt too wide) in paragraph at lines 400--401
+Overfull \hbox (7.53735pt too wide) in paragraph at lines 403--404
 \T1/aer/m/n/9 in next sec-tion for do-ing $\OML/cmm/m/it/9 collaboration$ \T1/a
 er/m/n/9 pre-dic-tion. The method
  []
@@ -856,86 +561,30 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.410 \begin{algorithm}
+l.413 \begin{algorithm}
                         % enter the algorithm environment
 ? 
 
-! LaTeX Error: No counter 'copyrightbox' defined.
+! Package caption Error: No float type 'copyrightbox' defined.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.411 \caption
-              {GRAPH-PROB-VECTOR ($\mathbf{S}_g$, $N_g, N_a$)} % give the al...
+l.414 \caption{
+               GRAPH-PROB-VECTOR ($\mathbf{S}_g$, $N_g, N_a$)} % give the al...
 
 ? 
 
-! LaTeX Error: Environment algorithmic undefined.
+! Package caption Error: No float type 'copyrightbox' defined.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.413 \begin{algorithmic}
-                         [1] % enter the algorithmic environment
-? 
-! Undefined control sequence.
-l.415 \STATE
-             $\mathbf{p_g}$ is the probability vector for edge likelihood of...
+l.414 ...PROB-VECTOR ($\mathbf{S}_g$, $N_g, N_a$)}
+                                                   % give the algorithm a ca...
 
-? 
-! Undefined control sequence.
-l.417 \FOR
-          {$i \in \{1,2,...,N_g\}$}
-? 
-! Undefined control sequence.
-l.418 \STATE
-             $s_i$ is the cardinality of hyperedge $h_i$.
-? 
-! Undefined control sequence.
-l.419 \FOR
-          {Each of the ${s_{i} \choose 2}$ dyadic links $d_p$, of the hypere...
-
-? 
-! Undefined control sequence.
-l.421 \FOR
-          {$p$  s.t. $v_p \in d_p$}
-? 
-! Undefined control sequence.
-l.422 \STATE
-             $\mathbf{p_g}(i)$ = $\mathbf{p_g}(i) \ast \mathbf{S}_g (i,p)$
-? 
-! Undefined control sequence.
-l.423 \ENDFOR
-             
-? 
-! Undefined control sequence.
-l.424 \ENDFOR
-             
-? 
-! Undefined control sequence.
-l.425 \ENDFOR
-              \\
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 417--426
-
- []
-
-! Undefined control sequence.
-l.427 \RETURN
-             { \textbf{return} $\mathbf{p_g}$}
-? 
-
-! LaTeX Error: \begin{document} ended by \end{algorithmic}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.429 \end{algorithmic}
-                       
 ? 
 
 ! LaTeX Error: \begin{document} ended by \end{algorithm}.
@@ -944,114 +593,99 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.430 \end{algorithm}
+l.433 \end{algorithm}
                      
 ? 
-<distribution.pdf, id=36, 433.62pt x 325.215pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+<distribution.pdf, id=35, 433.62pt x 325.215pt>
 File: distribution.pdf Graphic file (type pdf)
  <use distribution.pdf>
-Package pdftex.def Info: distribution.pdf used on input line 451.
-(pdftex.def)             Requested size: 142.26378pt x 106.69601pt.
-
-Overfull \hbox (1.23058pt too wide) in paragraph at lines 463--463
+Overfull \hbox (1.23058pt too wide) in paragraph at lines 466--466
 \T1/aer/m/n/9 The prob-a-bil-ity of $\OML/cmm/m/it/9 i[]$ \T1/aer/m/n/9 hy-per-
 edge re-oc-cur-ring us-ing the dyadic
  []
 
-[5
-! Undefined control sequence.
-<write> \@writefile{\ext@copyrightbox 
-                                      }{\protect \contentsline {copyrightbox...
-l.474 
-      
-? 
-! Undefined control sequence.
-<write> ...\protect \numberline {\thecopyrightbox 
-                                                  }{\ignorespaces GRAPH-PROB...
-l.474 
-      
-? 
-! Undefined control sequence.
-<write> \newlabel{alg2}{{\p@copyrightbox 
-                                         \thecopyrightbox }{\thepage }}
-l.474 
-      
-? 
-! Undefined control sequence.
-<write> ...lg2}{{\p@copyrightbox \thecopyrightbox 
-                                                  }{\thepage }}
-l.474 
-      
-? 
- <C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmission
- Alternate KDD style/distribution.pdf>]
+[5 <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmissi
+on Alternate KDD style/distribution.pdf>]
 <tables.pdf, id=44, 730.73pt x 308.15125pt>
 File: tables.pdf Graphic file (type pdf)
  <use tables.pdf>
-Package pdftex.def Info: tables.pdf used on input line 479.
-(pdftex.def)             Requested size: 504.0pt x 212.53995pt.
 
-! Undefined control sequence.
-l.492         \subfloat
+! LaTeX Error: No counter 'subfigure@save' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.495         \subfloat
                        {\includegraphics[width=0.245\textwidth]{fscore_main_...
 
 ? 
-<fscore_main_100.pdf, id=45, 397.485pt x 289.08pt>
+<fscore_main_100.pdf, id=46, 397.485pt x 289.08pt>
 File: fscore_main_100.pdf Graphic file (type pdf)
  <use fscore_main_100.pdf>
-Package pdftex.def Info: fscore_main_100.pdf used on input line 492.
-(pdftex.def)             Requested size: 123.47754pt x 89.79913pt.
 
-! Undefined control sequence.
-l.492 ...textwidth]{fscore_main_100.pdf}}\subfloat
+! LaTeX Error: No counter 'subfigure@save' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.495 ...textwidth]{fscore_main_100.pdf}}\subfloat
                                                   {\includegraphics[width=0....
 
 ? 
-<fscore_main_1000.pdf, id=46, 397.485pt x 289.08pt>
+<fscore_main_1000.pdf, id=47, 397.485pt x 289.08pt>
 File: fscore_main_1000.pdf Graphic file (type pdf)
  <use fscore_main_1000.pdf>
-Package pdftex.def Info: fscore_main_1000.pdf used on input line 492.
-(pdftex.def)             Requested size: 123.47754pt x 89.79913pt.
-
-Overfull \hbox (6.95508pt too wide) in paragraph at lines 492--493
+Overfull \hbox (6.95508pt too wide) in paragraph at lines 495--496
  [][][] 
  []
 
-! Undefined control sequence.
-l.500         \subfloat
+
+! LaTeX Error: No counter 'subfigure@save' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.503         \subfloat
                        {\includegraphics[width=0.245\textwidth]{fscore_100_v...
 
 ? 
-<fscore_100_var_train.pdf, id=47, 397.485pt x 289.08pt>
+<fscore_100_var_train.pdf, id=48, 397.485pt x 289.08pt>
 File: fscore_100_var_train.pdf Graphic file (type pdf)
 
 <use fscore_100_var_train.pdf>
-Package pdftex.def Info: fscore_100_var_train.pdf used on input line 500.
-(pdftex.def)             Requested size: 123.47754pt x 89.79913pt.
 
-! Undefined control sequence.
-l.500 ...idth]{fscore_100_var_train.pdf}}\subfloat
+! LaTeX Error: No counter 'subfigure@save' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.503 ...idth]{fscore_100_var_train.pdf}}\subfloat
                                                   {\includegraphics[width=0....
 
 ? 
-<fscore_1000_var_train.pdf, id=48, 397.485pt x 289.08pt>
+<fscore_1000_var_train.pdf, id=49, 397.485pt x 289.08pt>
 File: fscore_1000_var_train.pdf Graphic file (type pdf)
 
 <use fscore_1000_var_train.pdf>
-Package pdftex.def Info: fscore_1000_var_train.pdf used on input line 500.
-(pdftex.def)             Requested size: 123.47754pt x 89.79913pt.
-
-Overfull \hbox (6.95508pt too wide) in paragraph at lines 500--501
+Overfull \hbox (6.95508pt too wide) in paragraph at lines 503--504
  [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--509
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
 
  []
 
 
-Overfull \hbox (3.18542pt too wide) in paragraph at lines 538--539
+Overfull \hbox (3.18542pt too wide) in paragraph at lines 541--542
 []\T1/aer/m/n/9 This study con-sid-ers col-lab-o-ra-tions of size = $\OMS/cmsy/
 m/n/9 f\OT1/cmr/m/n/9 2\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 3\OML/cmm/m/it/9 ; \OT1
 /cmr/m/n/9 4\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 5\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 
@@ -1059,26 +693,31 @@ m/n/9 f\OT1/cmr/m/n/9 2\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 3\OML/cmm/m/it/9 ; \OT1
  []
 
 
-Overfull \hbox (6.19897pt too wide) in paragraph at lines 538--539
+Overfull \hbox (6.19897pt too wide) in paragraph at lines 541--542
 \T1/aer/m/n/9 as we are in-ter-ested only in higher or-der col-lab-o-ra-tions (
 size=2
  []
 
-
-Overfull \hbox (2.83916pt too wide) in paragraph at lines 565--566
+[6 <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmissi
+on Alternate KDD style/fscore_main_100.pdf> <C:/Ankit/Research/gitrepo/hyperedg
+e_activity_prediction/KDD 2014 Resubmission Alternate KDD style/fscore_main_100
+0.pdf> <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubm
+ission Alternate KDD style/fscore_100_var_train.pdf> <C:/Ankit/Research/gitrepo
+/hyperedge_activity_prediction/KDD 2014 Resubmission Alternate KDD style/fscore
+_1000_var_train.pdf>]
+Overfull \hbox (2.83916pt too wide) in paragraph at lines 568--569
 \T1/aer/m/n/9 across all the $\OML/cmm/m/it/9 splits$ \T1/aer/m/n/9 (over which
  the ex-per-i-ment is con-ducted). 
  []
 
-[6 <C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmissi
-on Alternate KDD style/fscore_main_100.pdf> <C:/New folder (2)/gitrepo/hyperedg
-e_activity_prediction/KDD 2014 Resubmission Alternate KDD style/fscore_main_100
-0.pdf> <C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubm
-ission Alternate KDD style/fscore_100_var_train.pdf> <C:/New folder (2)/gitrepo
-/hyperedge_activity_prediction/KDD 2014 Resubmission Alternate KDD style/fscore
-_1000_var_train.pdf>]
-! Undefined control sequence.
-l.579         \subfloat
+
+! LaTeX Error: No counter 'subfigure@save' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.582         \subfloat
                        {\includegraphics[width=0.245\textwidth]{fscore_100_v...
 
 ? 
@@ -1086,11 +725,14 @@ l.579         \subfloat
 File: fscore_100_var_test.pdf Graphic file (type pdf)
 
 <use fscore_100_var_test.pdf>
-Package pdftex.def Info: fscore_100_var_test.pdf used on input line 579.
-(pdftex.def)             Requested size: 123.47754pt x 89.79913pt.
 
-! Undefined control sequence.
-l.579 ...width]{fscore_100_var_test.pdf}}\subfloat
+! LaTeX Error: No counter 'subfigure@save' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.582 ...width]{fscore_100_var_test.pdf}}\subfloat
                                                   {\includegraphics[width=0....
 
 ? 
@@ -1098,21 +740,24 @@ l.579 ...width]{fscore_100_var_test.pdf}}\subfloat
 File: fscore_1000_var_test.pdf Graphic file (type pdf)
 
 <use fscore_1000_var_test.pdf>
-Package pdftex.def Info: fscore_1000_var_test.pdf used on input line 579.
-(pdftex.def)             Requested size: 123.47754pt x 89.79913pt.
-
-Overfull \hbox (6.95508pt too wide) in paragraph at lines 579--580
+Overfull \hbox (6.95508pt too wide) in paragraph at lines 582--583
  [][][] 
  []
 
 
-Overfull \hbox (9.65486pt too wide) in paragraph at lines 585--586
+Overfull \hbox (9.65486pt too wide) in paragraph at lines 588--589
 \T1/aer/m/n/9 curves for dif-fer-ent test-ing pe-ri-ods are shown in Fig-ure 8(
 a),(b).
  []
 
-! Undefined control sequence.
-l.598         \subfloat
+
+! LaTeX Error: No counter 'subfigure@save' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.601         \subfloat
                        {\includegraphics[width=0.245\textwidth]{trivial_prec...
 
 ? 
@@ -1120,11 +765,14 @@ l.598         \subfloat
 File: trivial_precision_1000.pdf Graphic file (type pdf)
 
 <use trivial_precision_1000.pdf>
-Package pdftex.def Info: trivial_precision_1000.pdf used on input line 598.
-(pdftex.def)             Requested size: 123.47754pt x 89.79913pt.
 
-! Undefined control sequence.
-l.598 ...th]{trivial_precision_1000.pdf}}\subfloat
+! LaTeX Error: No counter 'subfigure@save' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.601 ...th]{trivial_precision_1000.pdf}}\subfloat
                                                   {\includegraphics[width=0....
 
 ? 
@@ -1132,66 +780,60 @@ l.598 ...th]{trivial_precision_1000.pdf}}\subfloat
 File: trivial_recall_1000.pdf Graphic file (type pdf)
 
 <use trivial_recall_1000.pdf>
-Package pdftex.def Info: trivial_recall_1000.pdf used on input line 598.
-(pdftex.def)             Requested size: 123.47754pt x 89.79913pt.
-
-Overfull \hbox (6.95508pt too wide) in paragraph at lines 598--599
+Overfull \hbox (6.95508pt too wide) in paragraph at lines 601--602
  [][][] 
  []
 
 
-Overfull \hbox (11.09457pt too wide) in paragraph at lines 604--605
+Overfull \hbox (11.09457pt too wide) in paragraph at lines 607--608
 \T1/aer/m/n/9 dyadic links. This ex-per-i-ment con-sists of three sub-experimen
 ts
  []
 
-[7 <C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmissi
-on Alternate KDD style/tables.pdf> <C:/New folder (2)/gitrepo/hyperedge_activit
+[7 <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmissi
+on Alternate KDD style/tables.pdf> <C:/Ankit/Research/gitrepo/hyperedge_activit
 y_prediction/KDD 2014 Resubmission Alternate KDD style/fscore_100_var_test.pdf>
- <C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmission
- Alternate KDD style/fscore_1000_var_test.pdf> <C:/New folder (2)/gitrepo/hyper
-edge_activity_prediction/KDD 2014 Resubmission Alternate KDD style/trivial_prec
-ision_1000.pdf> <C:/New folder (2)/gitrepo/hyperedge_activity_prediction/KDD 20
-14 Resubmission Alternate KDD style/trivial_recall_1000.pdf>]
-("C:\New folder (2)\gitrepo\hyperedge_activity_prediction\KDD 2014 Resubmission
- Alternate KDD style\sig-alternate.bbl" [8]) [9
+ <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmission
+ Alternate KDD style/fscore_1000_var_test.pdf>]
+("C:\Ankit\Research\gitrepo\hyperedge_activity_prediction\KDD 2014 Resubmission
+ Alternate KDD style\sig-alternate.bbl" [8 <C:/Ankit/Research/gitrepo/hyperedge
+_activity_prediction/KDD 2014 Resubmission Alternate KDD style/trivial_precisio
+n_1000.pdf> <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 R
+esubmission Alternate KDD style/trivial_recall_1000.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
-("C:\New folder (2)\gitrepo\hyperedge_activity_prediction\KDD 2014 Resubmission
+) [9]
+("C:\Ankit\Research\gitrepo\hyperedge_activity_prediction\KDD 2014 Resubmission
  Alternate KDD style\sig-alternate.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2737 strings out of 494045
- 34531 string characters out of 3145956
- 97240 words of memory out of 3000000
- 5950 multiletter control sequences out of 15000+200000
+ 3855 strings out of 495285
+ 52749 string characters out of 3181405
+ 124798 words of memory out of 3000000
+ 6963 multiletter control sequences out of 15000+200000
  54394 words of font info for 75 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 41i,12n,26p,2033b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/euler/eusm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw
-/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/u
-tmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sig-alternate.pdf (9 pages, 644016 bytes).
+ 14 hyphenation exceptions out of 8191
+ 39i,12n,38p,1935b,618s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Ankit_miktex/fonts/enc/dvips/fontname/8r.enc}<C:/Ankit_miktex/fonts/type1
+/public/amsfonts/cm/cmbx6.pfb><C:/Ankit_miktex/fonts/type1/public/amsfonts/cm/c
+mbx9.pfb><C:/Ankit_miktex/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Ank
+it_miktex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Ankit_miktex/fonts/type1
+/public/amsfonts/cm/cmmi6.pfb><C:/Ankit_miktex/fonts/type1/public/amsfonts/cm/c
+mmi9.pfb><C:/Ankit_miktex/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Ankit_mik
+tex/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Ankit_miktex/fonts/type1/public
+/amsfonts/cm/cmsy5.pfb><C:/Ankit_miktex/fonts/type1/public/amsfonts/cm/cmsy6.pf
+b><C:/Ankit_miktex/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Ankit_miktex/fo
+nts/type1/public/amsfonts/cm/cmti9.pfb><C:/Ankit_miktex/fonts/type1/public/amsf
+onts/euler/eusm10.pfb><C:/Ankit_miktex/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/
+Ankit_miktex/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Ankit_miktex/fonts/type1/u
+rw/times/utmb8a.pfb><C:/Ankit_miktex/fonts/type1/urw/times/utmr8a.pfb><C:/Ankit
+_miktex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on sig-alternate.pdf (9 pages, 639785 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
+ 166 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
