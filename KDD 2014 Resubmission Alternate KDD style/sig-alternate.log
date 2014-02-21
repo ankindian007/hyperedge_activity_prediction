@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.6.23)  20 FEB 2014 14:43
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.6.23)  20 FEB 2014 19:37
 entering extended mode
 **sig-alternate.tex
 
@@ -276,6 +276,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks39
 \@floatcapt=\box31
 )
+(C:\Ankit_miktex\tex\latex\multirow\multirow.sty
+\bigstrutjot=\dimen137
+)
 ("C:\Ankit\Research\gitrepo\hyperedge_activity_prediction\KDD 2014 Resubmission
  Alternate KDD style\sig-alternate.aux"
 
@@ -291,28 +294,28 @@ LaTeX Warning: Label `alg2' multiply defined.
 LaTeX Warning: Label `alg2' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
  (C:\Ankit_miktex\tex\context\base\supp-pdf.tex
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count119
-\scratchdimen=\dimen137
+\scratchdimen=\dimen138
 \scratchbox=\box32
 \nofMPsegments=\count120
 \nofMParguments=\count121
 \everyMPshowfont=\toks40
 \MPscratchCnt=\count122
-\MPscratchDim=\dimen138
+\MPscratchDim=\dimen139
 \MPnumerator=\count123
 \everyMPtoPDFconversion=\toks41
 )
@@ -320,16 +323,16 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 167.
+LaTeX Font Info:    Try loading font information for U+msa on input line 168.
  (C:\Ankit_miktex\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 167.
+LaTeX Font Info:    Try loading font information for U+msb on input line 168.
 
 (C:\Ankit_miktex\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 167.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 168.
 
 (C:\Ankit_miktex\tex\latex\base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -363,41 +366,44 @@ ity_prediction/KDD 2014 Resubmission Alternate KDD style/bipartite.JPG>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (6.82327pt too wide) in paragraph at lines 222--223
+Overfull \hbox (6.82327pt too wide) in paragraph at lines 225--226
 \T1/aer/m/n/9 ap-proach to pre-dict higher or-der col-lab-o-ra-tions (size$\OML
 /cmm/m/it/9 >$\T1/aer/m/n/9 4) which
  []
 
-
-Overfull \hbox (5.21666pt too wide) in paragraph at lines 247--247
+[2]
+Overfull \hbox (5.21666pt too wide) in paragraph at lines 250--250
 []\secfnt HYPEREDGE PRE-DIC-TION PROB-LEMS
  []
 
-[2]
-Overfull \hbox (1.3349pt too wide) in paragraph at lines 267--268
+
+Overfull \hbox (1.3349pt too wide) in paragraph at lines 270--271
 \T1/aer/m/n/9 lows: Given a past his-tory of col-lab-o-ra-tions $\OML/cmm/m/it/
 9 C[] \OT1/cmr/m/n/9 = \OMS/cmsy/m/n/9 f\OT1/cmr/bx/n/9 c[]\OMS/cmsy/m/n/9 g[]$
 
  []
 
-<intuition.JPG, id=19, 692.5875pt x 547.2947pt>
+<intuition.JPG, id=20, 692.5875pt x 547.2947pt>
 File: intuition.JPG Graphic file (type jpg)
  <use intuition.JPG>
-Overfull \hbox (1.79643pt too wide) in paragraph at lines 285--286
+Overfull \hbox (1.79643pt too wide) in paragraph at lines 288--289
 \T1/aer/m/n/9 of dyadic links, P(A-B-C) = P(A-B)xP(B-C)xP(C-A)=
  []
 
-<time_snap.jpg, id=20, 541.27219pt x 420.82219pt>
+<time_snap.jpg, id=21, 541.27219pt x 420.82219pt>
 File: time_snap.jpg Graphic file (type jpg)
  <use time_snap.jpg>
-LaTeX Font Info:    Try loading font information for U+eus on input line 305.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmissi
+on Alternate KDD style/intuition.JPG>]
+LaTeX Font Info:    Try loading font information for U+eus on input line 308.
 
 (C:\Ankit_miktex\tex\latex\amsfonts\ueus.fd
 File: ueus.fd 2009/06/22 v3.00 Euler Script
-) [3 <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmis
-sion Alternate KDD style/intuition.JPG> <C:/Ankit/Research/gitrepo/hyperedge_ac
-tivity_prediction/KDD 2014 Resubmission Alternate KDD style/time_snap.jpg>]
-Overfull \hbox (2.52522pt too wide) in paragraph at lines 307--308
+)
+Overfull \hbox (2.52522pt too wide) in paragraph at lines 310--311
 []\T1/aer/m/n/9 Similar to hy-per-graph we rep-re-sent graph as $\OML/cmm/m/it/
 9 G\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 V; E\OT1/cmr/m/n/9 )$ \T1/aer/m/n/9 where
  []
@@ -409,7 +415,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.309 \begin{algorithm}
+l.312 \begin{algorithm}
                         % enter the algorithm environment
 ? 
 
@@ -419,7 +425,7 @@ See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.310 \caption{
+l.313 \caption{
                PREDICT-COLLAB($C_{hist}$, $isHypergraph$)} % give the algori...
 
 ? 
@@ -430,20 +436,17 @@ See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.310 ...EDICT-COLLAB($C_{hist}$, $isHypergraph$)}
+l.313 ...EDICT-COLLAB($C_{hist}$, $isHypergraph$)}
                                                    % give the algorithm a ca...
 
 ? 
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 336.
+(amsmath)                 on input line 339.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (12.78328pt too wide) in paragraph at lines 346--347
+Overfull \hbox (12.78328pt too wide) in paragraph at lines 349--350
 [] []\T1/aer/bx/n/9 return   re-turn \T1/aer/m/n/9 GRAPH-PROB-VECTOR ($\OT1/cmr
 /bx/n/9 S[]$\T1/aer/m/n/9 , $\OML/cmm/m/it/9 N[]; N[]$\T1/aer/m/n/9 ) 
  []
@@ -455,7 +458,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.350 \end{algorithm}
+l.353 \end{algorithm}
                      
 ? 
 
@@ -465,7 +468,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.353 \begin{algorithm}
+l.356 \begin{algorithm}
                         % enter the algorithm environment
 ? 
 
@@ -475,7 +478,7 @@ See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.354 \caption{
+l.357 \caption{
                BUILD-SIMILARITY-MATRIX ($\mathscr{Z}$, $N_a, N_b$) } % give ...
 
 ? 
@@ -486,7 +489,7 @@ See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.354 ...RITY-MATRIX ($\mathscr{Z}$, $N_a, N_b$) }
+l.357 ...RITY-MATRIX ($\mathscr{Z}$, $N_a, N_b$) }
                                                    % give the algorithm a ca...
 
 ? 
@@ -497,7 +500,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.369 \end{algorithm}
+l.372 \end{algorithm}
                      
 ? 
 
@@ -507,7 +510,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.371 \begin{algorithm}
+l.374 \begin{algorithm}
                         % enter the algorithm environment
 ? 
 
@@ -517,7 +520,7 @@ See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.372 \caption{
+l.375 \caption{
                HYPERGRAPH-PROB-VECTOR ($\mathbf{S}_h$, $N_h, N_a$) } % give ...
 
 ? 
@@ -528,7 +531,7 @@ See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.372 ...ROB-VECTOR ($\mathbf{S}_h$, $N_h, N_a$) }
+l.375 ...ROB-VECTOR ($\mathbf{S}_h$, $N_h, N_a$) }
                                                    % give the algorithm a ca...
 
 ? 
@@ -539,17 +542,21 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.388 \end{algorithm}
+l.391 \end{algorithm}
                      
 ? 
-[4]
-Overfull \hbox (3.9581pt too wide) in paragraph at lines 403--404
+
+Underfull \vbox (badness 4899) has occurred while \output is active []
+
+ [4 <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmiss
+ion Alternate KDD style/time_snap.jpg>]
+Overfull \hbox (3.9581pt too wide) in paragraph at lines 406--407
 []\T1/aer/m/n/9 Next step in the pro-cess is to de-com-pose the ten-sors (loade
 d
  []
 
 
-Overfull \hbox (7.53735pt too wide) in paragraph at lines 403--404
+Overfull \hbox (7.53735pt too wide) in paragraph at lines 406--407
 \T1/aer/m/n/9 in next sec-tion for do-ing $\OML/cmm/m/it/9 collaboration$ \T1/a
 er/m/n/9 pre-dic-tion. The method
  []
@@ -561,7 +568,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.413 \begin{algorithm}
+l.416 \begin{algorithm}
                         % enter the algorithm environment
 ? 
 
@@ -571,7 +578,7 @@ See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.414 \caption{
+l.417 \caption{
                GRAPH-PROB-VECTOR ($\mathbf{S}_g$, $N_g, N_a$)} % give the al...
 
 ? 
@@ -582,7 +589,7 @@ See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.414 ...PROB-VECTOR ($\mathbf{S}_g$, $N_g, N_a$)}
+l.417 ...PROB-VECTOR ($\mathbf{S}_g$, $N_g, N_a$)}
                                                    % give the algorithm a ca...
 
 ? 
@@ -593,23 +600,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.433 \end{algorithm}
+l.436 \end{algorithm}
                      
 ? 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 <distribution.pdf, id=35, 433.62pt x 325.215pt>
 File: distribution.pdf Graphic file (type pdf)
- <use distribution.pdf>
-Overfull \hbox (1.23058pt too wide) in paragraph at lines 466--466
+ <use distribution.pdf> [5 <C:/Ankit/Research/gitrepo/hyperedge_activity_predic
+tion/KDD 2014 Resubmission Alternate KDD style/distribution.pdf>]
+Overfull \hbox (1.23058pt too wide) in paragraph at lines 469--469
 \T1/aer/m/n/9 The prob-a-bil-ity of $\OML/cmm/m/it/9 i[]$ \T1/aer/m/n/9 hy-per-
 edge re-oc-cur-ring us-ing the dyadic
  []
 
-[5 <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmissi
-on Alternate KDD style/distribution.pdf>]
 <tables.pdf, id=44, 730.73pt x 308.15125pt>
 File: tables.pdf Graphic file (type pdf)
  <use tables.pdf>
@@ -620,8 +622,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.495         \subfloat
-                       {\includegraphics[width=0.245\textwidth]{fscore_main_...
+l.498 \subfloat
+               {\includegraphics[width=0.245\textwidth]{fscore_main_100.pdf}...
 
 ? 
 <fscore_main_100.pdf, id=46, 397.485pt x 289.08pt>
@@ -634,14 +636,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.495 ...textwidth]{fscore_main_100.pdf}}\subfloat
+l.498 ...textwidth]{fscore_main_100.pdf}}\subfloat
                                                   {\includegraphics[width=0....
 
 ? 
 <fscore_main_1000.pdf, id=47, 397.485pt x 289.08pt>
 File: fscore_main_1000.pdf Graphic file (type pdf)
  <use fscore_main_1000.pdf>
-Overfull \hbox (6.95508pt too wide) in paragraph at lines 495--496
+Overfull \hbox (6.95508pt too wide) in paragraph at lines 498--499
  [][][] 
  []
 
@@ -652,8 +654,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.503         \subfloat
-                       {\includegraphics[width=0.245\textwidth]{fscore_100_v...
+l.506 \subfloat
+               {\includegraphics[width=0.245\textwidth]{fscore_100_var_train...
 
 ? 
 <fscore_100_var_train.pdf, id=48, 397.485pt x 289.08pt>
@@ -667,7 +669,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.503 ...idth]{fscore_100_var_train.pdf}}\subfloat
+l.506 ...idth]{fscore_100_var_train.pdf}}\subfloat
                                                   {\includegraphics[width=0....
 
 ? 
@@ -675,27 +677,13 @@ l.503 ...idth]{fscore_100_var_train.pdf}}\subfloat
 File: fscore_1000_var_train.pdf Graphic file (type pdf)
 
 <use fscore_1000_var_train.pdf>
-Overfull \hbox (6.95508pt too wide) in paragraph at lines 503--504
+Overfull \hbox (6.95508pt too wide) in paragraph at lines 506--507
  [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--512
+Underfull \hbox (badness 10000) in paragraph at lines 514--515
 
- []
-
-
-Overfull \hbox (3.18542pt too wide) in paragraph at lines 541--542
-[]\T1/aer/m/n/9 This study con-sid-ers col-lab-o-ra-tions of size = $\OMS/cmsy/
-m/n/9 f\OT1/cmr/m/n/9 2\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 3\OML/cmm/m/it/9 ; \OT1
-/cmr/m/n/9 4\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 5\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 
-6\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 7\OMS/cmsy/m/n/9 g$
- []
-
-
-Overfull \hbox (6.19897pt too wide) in paragraph at lines 541--542
-\T1/aer/m/n/9 as we are in-ter-ested only in higher or-der col-lab-o-ra-tions (
-size=2
  []
 
 [6 <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmissi
@@ -705,7 +693,21 @@ e_activity_prediction/KDD 2014 Resubmission Alternate KDD style/fscore_main_100
 ission Alternate KDD style/fscore_100_var_train.pdf> <C:/Ankit/Research/gitrepo
 /hyperedge_activity_prediction/KDD 2014 Resubmission Alternate KDD style/fscore
 _1000_var_train.pdf>]
-Overfull \hbox (2.83916pt too wide) in paragraph at lines 568--569
+Overfull \hbox (3.18542pt too wide) in paragraph at lines 544--545
+[]\T1/aer/m/n/9 This study con-sid-ers col-lab-o-ra-tions of size = $\OMS/cmsy/
+m/n/9 f\OT1/cmr/m/n/9 2\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 3\OML/cmm/m/it/9 ; \OT1
+/cmr/m/n/9 4\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 5\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 
+6\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 7\OMS/cmsy/m/n/9 g$
+ []
+
+
+Overfull \hbox (6.19897pt too wide) in paragraph at lines 544--545
+\T1/aer/m/n/9 as we are in-ter-ested only in higher or-der col-lab-o-ra-tions (
+size=2
+ []
+
+
+Overfull \hbox (2.83916pt too wide) in paragraph at lines 571--572
 \T1/aer/m/n/9 across all the $\OML/cmm/m/it/9 splits$ \T1/aer/m/n/9 (over which
  the ex-per-i-ment is con-ducted). 
  []
@@ -717,8 +719,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.582         \subfloat
-                       {\includegraphics[width=0.245\textwidth]{fscore_100_v...
+l.585 \subfloat
+               {\includegraphics[width=0.245\textwidth]{fscore_100_var_test....
 
 ? 
 <fscore_100_var_test.pdf, id=69, 397.485pt x 289.08pt>
@@ -732,7 +734,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.582 ...width]{fscore_100_var_test.pdf}}\subfloat
+l.585 ...width]{fscore_100_var_test.pdf}}\subfloat
                                                   {\includegraphics[width=0....
 
 ? 
@@ -740,16 +742,18 @@ l.582 ...width]{fscore_100_var_test.pdf}}\subfloat
 File: fscore_1000_var_test.pdf Graphic file (type pdf)
 
 <use fscore_1000_var_test.pdf>
-Overfull \hbox (6.95508pt too wide) in paragraph at lines 582--583
+Overfull \hbox (6.95508pt too wide) in paragraph at lines 585--586
  [][][] 
  []
 
 
-Overfull \hbox (9.65486pt too wide) in paragraph at lines 588--589
+Overfull \hbox (9.65486pt too wide) in paragraph at lines 591--592
 \T1/aer/m/n/9 curves for dif-fer-ent test-ing pe-ri-ods are shown in Fig-ure 8(
 a),(b).
  []
 
+[7 <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmissi
+on Alternate KDD style/tables.pdf>]
 
 ! LaTeX Error: No counter 'subfigure@save' defined.
 
@@ -757,11 +761,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.601         \subfloat
-                       {\includegraphics[width=0.245\textwidth]{trivial_prec...
+l.604 \subfloat
+               {\includegraphics[width=0.245\textwidth]{trivial_precision_10...
 
 ? 
-<trivial_precision_1000.pdf, id=71, 397.485pt x 289.08pt>
+<trivial_precision_1000.pdf, id=87, 397.485pt x 289.08pt>
 File: trivial_precision_1000.pdf Graphic file (type pdf)
 
 <use trivial_precision_1000.pdf>
@@ -772,37 +776,51 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.601 ...th]{trivial_precision_1000.pdf}}\subfloat
+l.604 ...th]{trivial_precision_1000.pdf}}\subfloat
                                                   {\includegraphics[width=0....
 
 ? 
-<trivial_recall_1000.pdf, id=72, 397.485pt x 289.08pt>
+<trivial_recall_1000.pdf, id=88, 397.485pt x 289.08pt>
 File: trivial_recall_1000.pdf Graphic file (type pdf)
 
 <use trivial_recall_1000.pdf>
-Overfull \hbox (6.95508pt too wide) in paragraph at lines 601--602
+Overfull \hbox (6.95508pt too wide) in paragraph at lines 604--605
  [][][] 
  []
 
 
-Overfull \hbox (11.09457pt too wide) in paragraph at lines 607--608
+Overfull \hbox (11.09457pt too wide) in paragraph at lines 610--611
 \T1/aer/m/n/9 dyadic links. This ex-per-i-ment con-sists of three sub-experimen
 ts
  []
 
-[7 <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmissi
-on Alternate KDD style/tables.pdf> <C:/Ankit/Research/gitrepo/hyperedge_activit
-y_prediction/KDD 2014 Resubmission Alternate KDD style/fscore_100_var_test.pdf>
- <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmission
- Alternate KDD style/fscore_1000_var_test.pdf>]
+! Undefined control sequence.
+<recently read> \leg 
+                     
+l.616 ...pace complexity for hypergraph case $\leg
+                                                  $ space complexity for gra...
+
+? 
+
+Overfull \hbox (20.74701pt too wide) in paragraph at lines 632--650
+[][] 
+ []
+
+[8 <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmissi
+on Alternate KDD style/fscore_100_var_test.pdf> <C:/Ankit/Research/gitrepo/hype
+redge_activity_prediction/KDD 2014 Resubmission Alternate KDD style/fscore_1000
+_var_test.pdf> <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 201
+4 Resubmission Alternate KDD style/trivial_precision_1000.pdf> <C:/Ankit/Resear
+ch/gitrepo/hyperedge_activity_prediction/KDD 2014 Resubmission Alternate KDD st
+yle/trivial_recall_1000.pdf>]
 ("C:\Ankit\Research\gitrepo\hyperedge_activity_prediction\KDD 2014 Resubmission
- Alternate KDD style\sig-alternate.bbl" [8 <C:/Ankit/Research/gitrepo/hyperedge
-_activity_prediction/KDD 2014 Resubmission Alternate KDD style/trivial_precisio
-n_1000.pdf> <C:/Ankit/Research/gitrepo/hyperedge_activity_prediction/KDD 2014 R
-esubmission Alternate KDD style/trivial_recall_1000.pdf>]
+ Alternate KDD style\sig-alternate.bbl"
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [9]
+ [9])
+[10
+
+]
 ("C:\Ankit\Research\gitrepo\hyperedge_activity_prediction\KDD 2014 Resubmission
  Alternate KDD style\sig-alternate.aux")
 
@@ -810,13 +828,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3855 strings out of 495285
- 52749 string characters out of 3181405
- 124798 words of memory out of 3000000
- 6963 multiletter control sequences out of 15000+200000
+ 3870 strings out of 495285
+ 53028 string characters out of 3181405
+ 123001 words of memory out of 3000000
+ 6974 multiletter control sequences out of 15000+200000
  54394 words of font info for 75 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 39i,12n,38p,1935b,618s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,12n,38p,2033b,618s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Ankit_miktex/fonts/enc/dvips/fontname/8r.enc}<C:/Ankit_miktex/fonts/type1
 /public/amsfonts/cm/cmbx6.pfb><C:/Ankit_miktex/fonts/type1/public/amsfonts/cm/c
 mbx9.pfb><C:/Ankit_miktex/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Ank
@@ -831,9 +849,9 @@ onts/euler/eusm10.pfb><C:/Ankit_miktex/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/
 Ankit_miktex/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Ankit_miktex/fonts/type1/u
 rw/times/utmb8a.pfb><C:/Ankit_miktex/fonts/type1/urw/times/utmr8a.pfb><C:/Ankit
 _miktex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sig-alternate.pdf (9 pages, 639785 bytes).
+Output written on sig-alternate.pdf (10 pages, 646025 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
+ 169 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

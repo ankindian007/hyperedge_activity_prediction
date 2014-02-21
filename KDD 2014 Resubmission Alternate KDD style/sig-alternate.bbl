@@ -117,6 +117,12 @@ P.~G. Lind, M.~C. Gonzalez, and H.~J. Herrmann.
 \newblock Cycles and clustering in bipartite networks.
 \newblock {\em Physical review E}, 72(5):056127, 2005.
 
+\bibitem{michoel2012alignment}
+T.~Michoel and B.~Nachtergaele.
+\newblock Alignment and integration of complex networks by hypergraph-based
+  spectral clustering.
+\newblock {\em Physical Review E}, 86(5):056111, 2012.
+
 \bibitem{newman2001structure}
 M.~E. Newman.
 \newblock The structure of scientific collaboration networks.
