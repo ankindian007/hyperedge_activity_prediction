@@ -613,7 +613,36 @@ This experiment analyzes the trivial case of predicting dyadic links. This exper
 
 \subsubsection{Complexity Analysis}
 
+<<<<<<< HEAD
 In this subsection we analyze the space and time complexity of the tensor based approach. It can be trivially shown that given $N_h$ number of hyperedges the corresponding clique graph shall have $N_g$ number of hyperedges and that $N_h \leq N_g$. The best case for graph (i.e. equality holds) when all the hyperedges are dyadic (i.e. all the collaborations have only 2 actors in them). Therefore, the number of non-zeros (NNZ) in \textit{hyper-incidence tensor} ($NNZh$) $\leq$ NNZ in \textit{graph-incidence tensor} ($NNZg$). Space complexity for our approach depend on the NNZ in tensors and hence, the space complexity for hypergraph case $\leg$ space complexity for graph case. Filling the tensor is obviously dependent linearly in the NNZs, which implies the tensor loading time for hypergraph ($O(NNZh)$) is less than graphs (($O(NNZg)$)). Tensor Decomposition complexity is linear in the NNZ of the tensor \cite{kolda11} therefore, for the tensor decomposition phase as well tensor decomposition time for hypergraph ($O(NNZh)$) is less than graphs (($O(NNZg)$)). Moreover, it is easy to see that the final construction of probability vectors (Algorithm 3,4) involves iterations that are proportional to $N_h$ and $N_g$. Therefore, in time complexity for final ranking also hypergraphs are better. To evaluate these complexities we run the whole process (3 phases) for 3 different training periods using $T_{buf}=3$ years and $K=50$. Experiment was run using Intel Core i7 (2.8 GHz) CPU with 4 GB RAM. Results are shown in Table 4, reveal that hypergraphs are approx. 20x, 2x and 5x faster than graphs for the three phases respectively. This trend was observed throughout the analysis across various other training periods in general. 
+=======
+In this subsection we analyze the space and time complexity of the tensor based approach. It can be trivially shown that given $N_h$ number of hyperedges the corresponding clique graph shall have $N_g$ number of hyperedges and that $N_h \leq N_g$. The best case for graph (i.e. equality holds) when all the hyperedges are dyadic (i.e. all the collaborations have only 2 actors in them).
+
+
+\begin{table}
+\begin{tabular}{ |l|l|l|l|l| }
+\hline
+Experiment & & Training & Training  & Training \\ 
+&  &(1981-84) &(1985-88) & (1989-92) \\ \hline
+\multirow{2}{*}{Phase: Building} & HG(sec) & 5 & 29 & 103 \\ \cline{2-5}
+
+ Tensor& G(sec)& 100 & 647 & 3471 \\ \hline
+
+\multirow{2}{*}{Phase: Decompos- } & HG(sec) &57 & 100 & 185\\ \cline{2-5}
+
+ -ing Tensor& G(sec)& 110 & 218 & 476\\ \hline
+
+\multirow{2}{*}{Phase: Building} & HG(sec) & 263 & 1526 & 7304 \\ \cline{2-5}
+
+ Ranked List& G(sec)& 1397  & 7862 & 38224\\ \hline
+
+
+\end{tabular}
+\end{table}
+
+
+	
+>>>>>>> d4f60a4c22f76974acc8b9ada6757bd756a4f780
 
 \subsubsection{Discussion}
 
